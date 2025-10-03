@@ -1,0 +1,3624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedCode Academy - Learn Medical Billing & Coding | Professional Healthcare Training</title>
+    <meta name="description" content="Master medical billing and coding with our comprehensive online course. Interactive lessons, real-world simulations, and industry certification prep.">
+    <meta name="keywords" content="medical billing, medical coding, health billing, health coding, health field, healthcare training, medical certification, ICD-10, CPT codes">
+    <link rel="canonical" href="https://medcodeacademy.com/">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="MedCode Academy - Learn Medical Billing & Coding">
+    <meta property="og:description" content="Master medical billing and coding with our comprehensive online course. Interactive lessons, real-world simulations, and industry certification.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://medcodeacademy.com/">
+    <meta property="og:image" content="https://medcodeacademy.com/assets/og-image.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="MedCode Academy">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MedCode Academy - Learn Medical Billing & Coding">
+    <meta name="twitter:description" content="Master medical billing and coding with our comprehensive online course. Interactive lessons and real-world simulations.">
+    <meta name="twitter:image" content="https://medcodeacademy.com/assets/og-image.jpg">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts with display swap for performance -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous">
+    
+    <!-- JSON-LD Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "MedCode Academy",
+        "url": "https://medcodeacademy.com/",
+        "logo": "https://medcodeacademy.com/assets/logo.png",
+        "description": "Professional medical billing and coding education platform with comprehensive training programs",
+        "educationalCredentialAwarded": "Medical Billing and Coding Certificate",
+        "courseMode": "online",
+        "teaches": ["Medical Billing", "Medical Coding", "ICD-10", "CPT Codes", "Healthcare Administration", "Insurance Claims Processing"],
+        "audience": {
+            "@type": "EducationalAudience",
+            "educationalRole": "student"
+        },
+        "offers": {
+            "@type": "Course",
+            "name": "Complete Medical Billing and Coding Certification",
+            "courseCode": "MBC-2024",
+            "numberOfCredits": 6,
+            "timeRequired": "P12W",
+            "courseworkRequirement": "Assignments, Quizzes, and Practical Simulations"
+        },
+        "hasCredential": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Medical Billing and Coding Professional Certificate",
+            "competencyRequired": "Medical terminology, coding systems, billing procedures"
+        }
+    }
+    </script>
+    
+    <style>
+        /* CSS Custom Properties for Medical Theme */
+        :root {
+            --primary-blue: #1e40af;
+            --secondary-blue: #3b82f6;
+            --light-blue: #dbeafe;
+            --dark-blue: #1e3a8a;
+            --medical-teal: #0891b2;
+            --medical-green: #059669;
+            --grey-900: #111827;
+            --grey-800: #1f2937;
+            --grey-700: #374151;
+            --grey-600: #4b5563;
+            --grey-500: #6b7280;
+            --grey-400: #9ca3af;
+            --grey-300: #d1d5db;
+            --grey-200: #e5e7eb;
+            --grey-100: #f3f4f6;
+            --grey-50: #f9fafb;
+            --accent-orange: #ea580c;
+            --accent-orange-light: #fb923c;
+            --success-green: #10b981;
+            --warning-yellow: #f59e0b;
+            --error-red: #ef4444;
+            --purple: #8b5cf6;
+            --white: #ffffff;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+            --border-radius: 12px;
+            --border-radius-lg: 16px;
+        }
+        
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--grey-800);
+            background-color: var(--white);
+            overflow-x: hidden;
+        }
+        
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 600;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            color: var(--grey-900);
+        }
+        
+        h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 700;
+            letter-spacing: -0.025em;
+        }
+        
+        h2 {
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 600;
+        }
+        
+        h3 {
+            font-size: clamp(1.5rem, 3vw, 2rem);
+            font-weight: 600;
+        }
+        
+        p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            color: var(--grey-700);
+        }
+        
+        .lead {
+            font-size: 1.25rem;
+            font-weight: 400;
+            color: var(--grey-600);
+        }
+        
+        /* Layout Utilities */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        
+        .section {
+            padding: 5rem 0;
+        }
+        
+        .grid {
+            display: grid;
+            gap: 2rem;
+        }
+        
+        .grid-2 {
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+        
+        .grid-3 {
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        }
+        
+        .flex {
+            display: flex;
+        }
+        
+        .flex-col {
+            flex-direction: column;
+        }
+        
+        .items-center {
+            align-items: center;
+        }
+        
+        .justify-center {
+            justify-content: center;
+        }
+        
+        .justify-between {
+            justify-content: space-between;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        /* Header Styles */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: transparent;
+            transition: var(--transition);
+            padding: 1rem 0;
+        }
+        
+        .header.scrolled {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .header .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            text-decoration: none;
+            color: var(--white);
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            font-size: 1.5rem;
+            transition: var(--transition);
+        }
+        
+        .header.scrolled .logo {
+            color: var(--primary-blue);
+        }
+        
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--medical-teal);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 1.2rem;
+        }
+        
+        .nav {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+        
+        .nav-link {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+            padding: 0.5rem 0;
+            border-bottom: 2px solid transparent;
+        }
+        
+        .header.scrolled .nav-link {
+            color: var(--grey-700);
+        }
+        
+        .nav-link:hover,
+        .nav-link:focus {
+            color: var(--accent-orange);
+            border-bottom-color: var(--accent-orange);
+        }
+        
+        /* Sound Control */
+        .sound-control {
+            position: fixed;
+            top: 100px;
+            right: 20px;
+            z-index: 1001;
+            background: var(--white);
+            border: 2px solid var(--grey-300);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: var(--transition);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .sound-control:hover {
+            background: var(--grey-50);
+            transform: scale(1.1);
+        }
+        
+        .sound-control.muted {
+            background: var(--error-red);
+            color: var(--white);
+            border-color: var(--error-red);
+        }
+        
+        /* Button Styles */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.875rem 1.5rem;
+            border-radius: var(--border-radius);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            text-align: center;
+        }
+        
+        .btn-primary {
+            background: var(--primary-blue);
+            color: var(--white);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .btn-primary:hover,
+        .btn-primary:focus {
+            background: var(--dark-blue);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .btn-secondary {
+            background: var(--accent-orange);
+            color: var(--white);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .btn-secondary:hover,
+        .btn-secondary:focus {
+            background: var(--accent-orange-light);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .btn-success {
+            background: var(--success-green);
+            color: var(--white);
+        }
+        
+        .btn-disabled {
+            background: var(--grey-300);
+            color: var(--grey-500);
+            cursor: not-allowed;
+        }
+        
+        .btn-medical {
+            background: var(--medical-teal);
+            color: var(--white);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .btn-medical:hover,
+        .btn-medical:focus {
+            background: var(--medical-green);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        /* Mobile Menu */
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--white);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+            border-radius: 4px;
+            transition: var(--transition);
+        }
+        
+        .header.scrolled .mobile-menu-btn {
+            color: var(--primary-blue);
+        }
+        
+        .mobile-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: var(--white);
+            box-shadow: var(--shadow-lg);
+            padding: 1rem;
+            border-radius: 0 0 var(--border-radius) var(--border-radius);
+        }
+        
+        .mobile-menu.open {
+            display: block;
+        }
+        
+        /* Hero Section */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, rgba(30, 64, 175, 0.9) 0%, rgba(8, 145, 178, 0.8) 50%, rgba(17, 24, 39, 0.9) 100%),
+                        url('https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: var(--white);
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            color: var(--white);
+            margin-bottom: 1.5rem;
+        }
+        
+        .hero .lead {
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 2rem;
+        }
+        
+        /* Dashboard Styles */
+        .dashboard {
+            background: linear-gradient(135deg, var(--grey-50) 0%, var(--light-blue) 100%);
+            border-radius: var(--border-radius-lg);
+            padding: 2rem;
+            margin: 2rem 0;
+            box-shadow: var(--shadow-md);
+            border: 2px solid var(--medical-teal);
+        }
+        
+        .dashboard-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .avatar {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--primary-blue), var(--medical-teal));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-weight: 700;
+            font-size: 1.5rem;
+            box-shadow: var(--shadow-md);
+        }
+        
+        .token-display {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: linear-gradient(135deg, var(--accent-orange), var(--warning-yellow));
+            color: var(--white);
+            padding: 0.75rem 1.25rem;
+            border-radius: var(--border-radius);
+            font-weight: 700;
+            font-size: 1.1rem;
+            box-shadow: var(--shadow-md);
+            animation: pulse 2s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        .progress-overview {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .progress-card {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-sm);
+            text-align: center;
+            transition: var(--transition);
+            border: 2px solid transparent;
+        }
+        
+        .progress-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--medical-teal);
+        }
+        
+        .progress-number {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--primary-blue);
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, var(--primary-blue), var(--medical-teal));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .progress-label {
+            color: var(--grey-600);
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        
+        /* Lesson Styles */
+        .lessons-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .lesson-card {
+            background: var(--white);
+            border-radius: var(--border-radius-lg);
+            padding: 2rem;
+            box-shadow: var(--shadow-md);
+            transition: var(--transition);
+            position: relative;
+            border: 2px solid transparent;
+            overflow: hidden;
+        }
+        
+        .lesson-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary-blue), var(--medical-teal), var(--accent-orange));
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+        
+        .lesson-card:hover::before {
+            transform: scaleX(1);
+        }
+        
+        .lesson-card.completed {
+            border-color: var(--success-green);
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.05) 0%, rgba(16, 185, 129, 0.1) 100%);
+        }
+        
+        .lesson-card.completed::before {
+            background: var(--success-green);
+            transform: scaleX(1);
+        }
+        
+        .lesson-card.locked {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        
+        .lesson-card.current {
+            border-color: var(--primary-blue);
+            box-shadow: var(--shadow-xl);
+            background: linear-gradient(135deg, rgba(30, 64, 175, 0.05) 0%, rgba(8, 145, 178, 0.05) 100%);
+        }
+        
+        .lesson-card:hover:not(.locked) {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-xl);
+        }
+        
+        .lesson-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1.5rem;
+        }
+        
+        .lesson-number {
+            background: linear-gradient(135deg, var(--primary-blue), var(--medical-teal));
+            color: var(--white);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1rem;
+            flex-shrink: 0;
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .lesson-status {
+            font-size: 1.5rem;
+            animation: bounce 2s ease-in-out infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-4px); }
+            60% { transform: translateY(-2px); }
+        }
+        
+        .lesson-title {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--grey-900);
+            margin: 1rem 0;
+            line-height: 1.3;
+        }
+        
+        .lesson-description {
+            color: var(--grey-600);
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+        
+        .lesson-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.9rem;
+            color: var(--grey-500);
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: var(--grey-50);
+            border-radius: var(--border-radius);
+        }
+        
+        .lesson-duration {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 600;
+        }
+        
+        .lesson-difficulty {
+            padding: 0.375rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .difficulty-beginner {
+            background: var(--success-green);
+            color: var(--white);
+        }
+        
+        .difficulty-intermediate {
+            background: var(--warning-yellow);
+            color: var(--white);
+        }
+        
+        .difficulty-advanced {
+            background: var(--error-red);
+            color: var(--white);
+        }
+        
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            backdrop-filter: blur(4px);
+        }
+        
+        .modal.show {
+            display: flex;
+        }
+        
+        .modal-content {
+            background: var(--white);
+            border-radius: var(--border-radius-lg);
+            padding: 2rem;
+            max-width: 900px;
+            width: 100%;
+            max-height: 95vh;
+            overflow-y: auto;
+            position: relative;
+            box-shadow: var(--shadow-xl);
+            border: 2px solid var(--medical-teal);
+        }
+        
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--grey-200);
+        }
+        
+        .modal-close {
+            background: none;
+            border: none;
+            font-size: 1.8rem;
+            cursor: pointer;
+            color: var(--grey-500);
+            transition: var(--transition);
+            padding: 0.5rem;
+            border-radius: 50%;
+        }
+        
+        .modal-close:hover {
+            color: var(--error-red);
+            background: var(--grey-100);
+        }
+        
+        /* Login Form */
+        .login-form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-label {
+            display: block;
+            margin-bottom: 0.75rem;
+            font-weight: 600;
+            color: var(--grey-700);
+        }
+        
+        .form-input {
+            width: 100%;
+            padding: 1rem;
+            border: 2px solid var(--grey-300);
+            border-radius: var(--border-radius);
+            font-size: 1rem;
+            transition: var(--transition);
+            background: var(--white);
+        }
+        
+        .form-input:focus {
+            outline: none;
+            border-color: var(--medical-teal);
+            box-shadow: 0 0 0 3px rgba(8, 145, 178, 0.1);
+        }
+        
+        /* Enhanced Quiz Styles */
+        .quiz-container {
+            background: linear-gradient(135deg, var(--grey-50) 0%, var(--light-blue) 100%);
+            border-radius: var(--border-radius-lg);
+            padding: 2rem;
+            margin: 2rem 0;
+            border: 2px solid var(--medical-teal);
+        }
+        
+        .quiz-progress {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--white);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .quiz-question-number {
+            font-weight: 700;
+            color: var(--primary-blue);
+            font-size: 1.1rem;
+        }
+        
+        .quiz-score {
+            font-weight: 700;
+            color: var(--success-green);
+            font-size: 1.1rem;
+        }
+        
+        .quiz-question {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--grey-900);
+            margin-bottom: 2rem;
+            line-height: 1.4;
+            padding: 1.5rem;
+            background: var(--white);
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--medical-teal);
+        }
+        
+        .quiz-options {
+            display: grid;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .quiz-option {
+            padding: 1.25rem;
+            border: 2px solid var(--grey-300);
+            border-radius: var(--border-radius);
+            background: var(--white);
+            cursor: pointer;
+            transition: var(--transition);
+            font-weight: 500;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .quiz-option::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+            transition: left 0.5s;
+        }
+        
+        .quiz-option:hover {
+            border-color: var(--medical-teal);
+            background: var(--light-blue);
+            transform: translateX(4px);
+        }
+        
+        .quiz-option:hover::before {
+            left: 100%;
+        }
+        
+        .quiz-option.selected {
+            border-color: var(--medical-teal);
+            background: var(--light-blue);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .quiz-option.correct {
+            border-color: var(--success-green);
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--success-green);
+        }
+        
+        .quiz-option.incorrect {
+            border-color: var(--error-red);
+            background: rgba(239, 68, 68, 0.1);
+            color: var(--error-red);
+        }
+        
+        .quiz-feedback {
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            margin: 1rem 0;
+            font-weight: 600;
+            border-left: 4px solid;
+        }
+        
+        .quiz-feedback.correct {
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--success-green);
+            border-left-color: var(--success-green);
+        }
+        
+        .quiz-feedback.incorrect {
+            background: rgba(239, 68, 68, 0.1);
+            color: var(--error-red);
+            border-left-color: var(--error-red);
+        }
+        
+        /* Simulation Styles */
+        .simulation-container {
+            background: var(--white);
+            border-radius: var(--border-radius-lg);
+            padding: 2rem;
+            box-shadow: var(--shadow-md);
+            margin: 2rem 0;
+            border: 2px solid var(--medical-teal);
+        }
+        
+        .simulation-header {
+            background: linear-gradient(135deg, var(--primary-blue), var(--medical-teal));
+            color: var(--white);
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            margin-bottom: 2rem;
+        }
+        
+        .simulation-controls {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--grey-50);
+            border-radius: var(--border-radius);
+        }
+        
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        
+        .control-label {
+            font-weight: 600;
+            color: var(--grey-700);
+            font-size: 0.9rem;
+        }
+        
+        .simulation-output {
+            min-height: 400px;
+            border: 2px solid var(--grey-300);
+            border-radius: var(--border-radius);
+            padding: 1.5rem;
+            background: var(--grey-50);
+            position: relative;
+        }
+        
+        .billing-form {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            border: 2px solid var(--medical-teal);
+            margin-bottom: 2rem;
+        }
+        
+        .billing-output {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            border: 2px solid var(--grey-300);
+        }
+        
+        .code-display {
+            background: var(--grey-900);
+            color: var(--white);
+            padding: 1rem;
+            border-radius: var(--border-radius);
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            overflow-x: auto;
+            margin: 1rem 0;
+        }
+        
+        /* Terminology Styles */
+        .terminology-section {
+            background: linear-gradient(135deg, var(--grey-50) 0%, var(--light-blue) 50%, var(--grey-50) 100%);
+        }
+        
+        .terminology-header {
+            text-center: center;
+            margin-bottom: 3rem;
+        }
+        
+        .search-container {
+            max-width: 600px;
+            margin: 0 auto 3rem;
+            position: relative;
+        }
+        
+        .search-input {
+            width: 100%;
+            padding: 1.25rem 1.25rem 1.25rem 3.5rem;
+            border: 2px solid var(--grey-300);
+            border-radius: var(--border-radius-lg);
+            font-size: 1.1rem;
+            background: var(--white);
+            transition: var(--transition);
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .search-input:focus {
+            outline: none;
+            border-color: var(--medical-teal);
+            box-shadow: 0 0 0 3px rgba(8, 145, 178, 0.1);
+        }
+        
+        .search-icon {
+            position: absolute;
+            left: 1.25rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--grey-500);
+            font-size: 1.2rem;
+        }
+        
+        .terminology-filters {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            padding: 0.75rem 1.5rem;
+            border: 2px solid var(--grey-300);
+            border-radius: var(--border-radius);
+            background: var(--white);
+            color: var(--grey-700);
+            cursor: pointer;
+            transition: var(--transition);
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        
+        .filter-btn.active,
+        .filter-btn:hover {
+            border-color: var(--medical-teal);
+            background: var(--medical-teal);
+            color: var(--white);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .terminology-grid {
+            display: grid;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .term-card {
+            background: var(--white);
+            border-radius: var(--border-radius-lg);
+            padding: 2rem;
+            box-shadow: var(--shadow-sm);
+            border-left: 6px solid var(--medical-teal);
+            transition: var(--transition);
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .term-card.hidden {
+            opacity: 0;
+            transform: translateY(20px);
+            pointer-events: none;
+        }
+        
+        .term-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .term-header {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .term-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: var(--border-radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            color: var(--white);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .term-icon.basic {
+            background: linear-gradient(135deg, var(--success-green), #34d399);
+        }
+        
+        .term-icon.intermediate {
+            background: linear-gradient(135deg, var(--warning-yellow), #fbbf24);
+        }
+        
+        .term-icon.advanced {
+            background: linear-gradient(135deg, var(--purple), #c084fc);
+        }
+        
+        .term-icon.medical {
+            background: linear-gradient(135deg, var(--medical-teal), var(--medical-green));
+        }
+        
+        .term-title {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--grey-900);
+            margin: 0;
+        }
+        
+        .term-category {
+            font-size: 0.8rem;
+            color: var(--grey-500);
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        
+        .term-definition {
+            color: var(--grey-700);
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+        }
+        
+        .term-example {
+            background: var(--grey-50);
+            padding: 1.25rem;
+            border-radius: var(--border-radius);
+            font-style: italic;
+            color: var(--grey-600);
+            border-left: 4px solid var(--accent-orange);
+            margin-bottom: 1rem;
+        }
+        
+        .term-tags {
+            display: flex;
+            gap: 0.75rem;
+            margin-top: 1.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .term-tag {
+            background: var(--light-blue);
+            color: var(--medical-teal);
+            padding: 0.375rem 1rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        
+        /* Project Styles */
+        .project-card {
+            background: var(--white);
+            border-radius: var(--border-radius-lg);
+            padding: 2rem;
+            box-shadow: var(--shadow-md);
+            transition: var(--transition);
+            border: 2px solid transparent;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-xl);
+            border-color: var(--medical-teal);
+        }
+        
+        .project-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: var(--border-radius);
+            margin-bottom: 1.5rem;
+        }
+        
+        .project-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--grey-900);
+            margin-bottom: 1rem;
+        }
+        
+        .project-description {
+            color: var(--grey-600);
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+        
+        .project-tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 1.5rem;
+        }
+        
+        .project-tag {
+            background: var(--grey-100);
+            color: var(--grey-700);
+            padding: 0.25rem 0.75rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        
+        /* Success Animation */
+        .success-animation {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 3000;
+            background: var(--white);
+            border-radius: var(--border-radius-lg);
+            padding: 3rem;
+            box-shadow: var(--shadow-xl);
+            text-align: center;
+            display: none;
+            border: 3px solid var(--success-green);
+        }
+        
+        .success-animation.show {
+            display: block;
+            animation: successPop 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+        
+        @keyframes successPop {
+            0% {
+                opacity: 0;
+                transform: translate(-50%, -50%) scale(0.3);
+            }
+            100% {
+                opacity: 1;
+                transform: translate(-50%, -50%) scale(1);
+            }
+        }
+        
+        .success-icon {
+            font-size: 5rem;
+            margin-bottom: 1rem;
+            animation: bounce 1s ease-in-out infinite;
+        }
+        
+        .token-earned {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--accent-orange);
+            margin-top: 1rem;
+        }
+        
+        /* Confetti Animation */
+        .confetti {
+            position: fixed;
+            top: -10px;
+            width: 10px;
+            height: 10px;
+            z-index: 3001;
+            animation: confetti-fall 3s linear infinite;
+        }
+        
+        @keyframes confetti-fall {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+        
+        /* Accessibility */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+        
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 6px;
+            background: var(--primary-blue);
+            color: var(--white);
+            padding: 8px;
+            text-decoration: none;
+            border-radius: 4px;
+            z-index: 2000;
+            transition: var(--transition);
+        }
+        
+        .skip-link:focus {
+            top: 6px;
+        }
+        
+        /* Focus Styles */
+        *:focus-visible {
+            outline: 3px solid var(--accent-orange);
+            outline-offset: 2px;
+        }
+        
+        /* Loading State */
+        .loading {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: var(--transition);
+        }
+        
+        .loading.loaded {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav {
+                display: none;
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            .dashboard-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .lessons-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .simulation-controls {
+                grid-template-columns: 1fr;
+            }
+            
+            .modal-content {
+                margin: 1rem;
+                padding: 1.5rem;
+            }
+            
+            .terminology-filters {
+                justify-content: flex-start;
+                overflow-x: auto;
+                padding-bottom: 0.5rem;
+            }
+            
+            .search-container {
+                margin-bottom: 2rem;
+            }
+            
+            .sound-control {
+                right: 10px;
+                top: 80px;
+                width: 45px;
+                height: 45px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 1rem;
+            }
+            
+            .section {
+                padding: 3rem 0;
+            }
+            
+            .progress-overview {
+                grid-template-columns: 1fr;
+            }
+            
+            .term-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1rem;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+        }
+        
+        /* Print Styles */
+        @media print {
+            .header,
+            .mobile-menu-btn,
+            .btn,
+            .modal,
+            .sound-control {
+                display: none;
+            }
+        }
+        
+        /* High Contrast Mode Support */
+        @media (prefers-contrast: high) {
+            :root {
+                --primary-blue: #000080;
+                --grey-700: #000000;
+                --accent-orange: #FF4500;
+            }
+        }
+        
+        /* Reduced Motion Support */
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+            
+            .hero {
+                background-attachment: scroll;
+            }
+        }
+        
+        /* Utility Classes */
+        .w-full { width: 100%; }
+        .h-full { height: 100%; }
+        .fixed { position: fixed; }
+        .relative { position: relative; }
+        .absolute { position: absolute; }
+        .top-4 { top: 1rem; }
+        .right-4 { right: 1rem; }
+        .z-50 { z-index: 50; }
+        .text-sm { font-size: 0.875rem; }
+        .text-xs { font-size: 0.75rem; }
+        .font-bold { font-weight: 700; }
+        .font-semibold { font-weight: 600; }
+        .uppercase { text-transform: uppercase; }
+        .mb-2 { margin-bottom: 0.5rem; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-6 { margin-bottom: 1.5rem; }
+        .mb-12 { margin-bottom: 3rem; }
+        .mt-4 { margin-top: 1rem; }
+        .mr-2 { margin-right: 0.5rem; }
+        .p-2 { padding: 0.5rem; }
+        .p-4 { padding: 1rem; }
+        .px-4 { padding-left: 1rem; padding-right: 1rem; }
+        .py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+        .rounded { border-radius: 0.375rem; }
+        .rounded-lg { border-radius: 0.5rem; }
+        .shadow { box-shadow: var(--shadow-sm); }
+        .border { border-width: 1px; }
+        .border-2 { border-width: 2px; }
+        .bg-white { background-color: var(--white); }
+        .bg-gray-50 { background-color: var(--grey-50); }
+        .bg-gray-100 { background-color: var(--grey-100); }
+        .bg-blue-50 { background-color: var(--light-blue); }
+        .bg-green-50 { background-color: rgba(16, 185, 129, 0.1); }
+        .bg-yellow-50 { background-color: rgba(245, 158, 11, 0.1); }
+        .bg-red-50 { background-color: rgba(239, 68, 68, 0.1); }
+        .text-gray-600 { color: var(--grey-600); }
+        .text-gray-700 { color: var(--grey-700); }
+        .text-gray-900 { color: var(--grey-900); }
+        .text-blue-600 { color: var(--primary-blue); }
+        .text-green-600 { color: var(--success-green); }
+        .text-red-600 { color: var(--error-red); }
+        .hover\:bg-gray-100:hover { background-color: var(--grey-100); }
+        .focus\:outline-none:focus { outline: none; }
+        .transition { transition: var(--transition); }
+        .cursor-pointer { cursor: pointer; }
+        .select-none { user-select: none; }
+        .overflow-hidden { overflow: hidden; }
+        .overflow-y-auto { overflow-y: auto; }
+        .flex-1 { flex: 1; }
+        .gap-1 { gap: 0.25rem; }
+        .gap-2 { gap: 0.5rem; }
+        .gap-3 { gap: 0.75rem; }
+        .gap-4 { gap: 1rem; }
+    </style>
+</head>
+
+<body>
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Sound Control Button -->
+    <button id="soundControl" class="sound-control" aria-label="Toggle sound on/off" title="Toggle Sound">
+        <i class="fas fa-volume-up" aria-hidden="true"></i>
+    </button>
+    
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <a href="#hero" class="logo" aria-label="MedCode Academy - Home">
+                <div class="logo-icon" aria-hidden="true">
+                    <i class="fas fa-stethoscope"></i>
+                </div>
+                <span>MedCode Academy</span>
+            </a>
+            
+            <nav class="nav" role="navigation" aria-label="Main navigation">
+                <a href="#lessons" class="nav-link">Lessons</a>
+                <a href="#simulations" class="nav-link">Simulations</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#terminology" class="nav-link">Terminology</a>
+                <button id="loginBtn" class="btn btn-primary">
+                    <i class="fas fa-user" aria-hidden="true"></i>
+                    Start Learning
+                </button>
+            </nav>
+            
+            <button class="mobile-menu-btn" aria-label="Toggle mobile menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <div class="mobile-menu" role="navigation" aria-label="Mobile navigation">
+                <nav class="flex flex-col gap-1">
+                    <a href="#lessons" class="nav-link">Lessons</a>
+                    <a href="#simulations" class="nav-link">Simulations</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#terminology" class="nav-link">Terminology</a>
+                    <button id="mobileLoginBtn" class="btn btn-primary">Start Learning</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero" role="banner">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Medical Billing & Coding — Learn Healthcare Administration Mastery</h1>
+                    <p class="lead">Master the essential skills of medical billing and coding with our comprehensive, industry-focused curriculum. Accessible lessons for anyone — Turbocharge your healthcare career anywhere, anytime.</p>
+                    <div class="flex justify-center gap-4 flex-wrap">
+                        <a href="#lessons" class="btn btn-secondary">
+                            <i class="fas fa-play" aria-hidden="true"></i>
+                            Start Free Lesson
+                        </a>
+                        <a href="#simulations" class="btn btn-medical">
+                            <i class="fas fa-calculator" aria-hidden="true"></i>
+                            Try Billing Simulator
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dashboard Section -->
+        <section id="dashboard" class="section" style="display: none;">
+            <div class="container">
+                <div class="dashboard">
+                    <div class="dashboard-header">
+                        <div class="user-info">
+                            <div class="avatar" id="userAvatar">MC</div>
+                            <div>
+                                <h3 id="userName">Welcome to MedCode Academy!</h3>
+                                <p class="text-sm text-gray-600">Your healthcare administration journey continues</p>
+                            </div>
+                        </div>
+                        <div class="token-display">
+                            <i class="fas fa-coins" aria-hidden="true"></i>
+                            <span id="tokenCount">0</span> Tokens
+                        </div>
+                    </div>
+                    
+                    <div class="progress-overview">
+                        <div class="progress-card">
+                            <div class="progress-number" id="lessonsCompleted">0</div>
+                            <div class="progress-label">Lessons Completed</div>
+                        </div>
+                        <div class="progress-card">
+                            <div class="progress-number" id="quizzesPasssed">0</div>
+                            <div class="progress-label">Assessments Passed</div>
+                        </div>
+                        <div class="progress-card">
+                            <div class="progress-number" id="certificationLevel">Beginner</div>
+                            <div class="progress-label">Certification Level</div>
+                        </div>
+                        <div class="progress-card">
+                            <div class="progress-number" id="overallProgress">0%</div>
+                            <div class="progress-label">Course Progress</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lessons Section -->
+        <section id="lessons" class="section" role="region" aria-labelledby="lessons-heading">
+            <div class="container">
+                <div class="text-center mb-12">
+                    <h2 id="lessons-heading">Professional Medical Billing & Coding Curriculum</h2>
+                    <p class="lead">Comprehensive training in healthcare administration fundamentals. Master ICD-10, CPT codes, and billing procedures through interactive, industry-standard lessons.</p>
+                </div>
+                
+                <div class="lessons-grid" id="lessonsGrid">
+                    <!-- Lessons will be dynamically generated -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Simulations Section -->
+        <section id="simulations" class="section" role="region" aria-labelledby="simulations-heading" style="background: var(--grey-50);">
+            <div class="container">
+                <div class="text-center mb-12">
+                    <h2 id="simulations-heading">Interactive Medical Billing Simulations</h2>
+                    <p class="lead">Practice real-world billing scenarios in our advanced simulation environment. Experience authentic medical coding workflows and claims processing.</p>
+                </div>
+                
+                <div class="simulation-container">
+                    <div class="simulation-header">
+                        <h3><i class="fas fa-calculator mr-2"></i>Medical Billing Console</h3>
+                        <p>Interactive billing and coding simulation for hands-on practice</p>
+                    </div>
+                    
+                    <div class="simulation-controls">
+                        <div class="control-group">
+                            <label class="control-label">Patient Type</label>
+                            <select id="patientType" class="form-input">
+                                <option value="outpatient">Outpatient</option>
+                                <option value="inpatient">Inpatient</option>
+                                <option value="emergency">Emergency</option>
+                                <option value="surgery">Surgery</option>
+                            </select>
+                        </div>
+                        
+                        <div class="control-group">
+                            <label class="control-label">Insurance Type</label>
+                            <select id="insuranceType" class="form-input">
+                                <option value="medicare">Medicare</option>
+                                <option value="medicaid">Medicaid</option>
+                                <option value="private">Private Insurance</option>
+                                <option value="self-pay">Self-Pay</option>
+                            </select>
+                        </div>
+                        
+                        <div class="control-group">
+                            <label class="control-label">Procedure</label>
+                            <select id="procedureType" class="form-input">
+                                <option value="consultation">Initial Consultation</option>
+                                <option value="examination">Physical Examination</option>
+                                <option value="diagnostic">Diagnostic Test</option>
+                                <option value="treatment">Treatment Procedure</option>
+                            </select>
+                        </div>
+                        
+                        <div class="control-group">
+                            <button class="btn btn-medical w-full" onclick="generateBill()">
+                                <i class="fas fa-file-invoice-dollar" aria-hidden="true"></i>
+                                Generate Bill
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="simulation-output">
+                        <div class="billing-form">
+                            <h4>Patient Billing Information</h4>
+                            <div id="patientInfo">
+                                <p><strong>Patient ID:</strong> <span id="patientId">Select options to generate</span></p>
+                                <p><strong>Procedure Code:</strong> <span id="procedureCode">-</span></p>
+                                <p><strong>Diagnosis Code:</strong> <span id="diagnosisCode">-</span></p>
+                                <p><strong>Provider:</strong> <span id="providerInfo">-</span></p>
+                            </div>
+                        </div>
+                        
+                        <div class="billing-output">
+                            <h4>Claims Processing Result</h4>
+                            <div id="billingResult">
+                                <div class="code-display">
+                                    <div id="billingCode">// Select parameters and click "Generate Bill" to see results</div>
+                                </div>
+                                <div id="billingDetails"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section" role="region" aria-labelledby="projects-heading">
+            <div class="container">
+                <div class="text-center mb-12">
+                    <h2 id="projects-heading">Real-World Medical Billing Projects</h2>
+                    <p class="lead">Apply your skills to authentic healthcare scenarios. Build a professional portfolio that demonstrates your medical billing and coding expertise.</p>
+                </div>
+                
+                <div class="grid grid-3">
+                    <article class="project-card loading">
+                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="Medical billing specialist working with patient records and coding documentation in hospital setting"
+                             class="project-image"
+                             loading="lazy"
+                             srcset="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80 400w,
+                                     https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80 800w"
+                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw">
+                        <h3 class="project-title">Outpatient Billing Portfolio</h3>
+                        <p class="project-description">Process 50 outpatient encounters including office visits, diagnostic procedures, and follow-up appointments. Master CPT coding and insurance verification procedures.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">CPT Codes</span>
+                            <span class="project-tag">Office Visits</span>
+                            <span class="project-tag">Beginner</span>
+                        </div>
+                        <button class="btn btn-disabled w-full">
+                            <i class="fas fa-lock" aria-hidden="true"></i>
+                            Complete 3 Lessons to Unlock
+                        </button>
+                    </article>
+                    
+                    <article class="project-card loading">
+                        <img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="Healthcare professional analyzing medical charts and ICD-10 coding systems on computer workstation"
+                             class="project-image"
+                             loading="lazy"
+                             srcset="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80 400w,
+                                     https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80 800w"
+                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw">
+                        <h3 class="project-title">ICD-10 Diagnostic Coding</h3>
+                        <p class="project-description">Advanced diagnostic coding project covering complex medical conditions, comorbidities, and external cause codes using ICD-10-CM classification system.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">ICD-10</span>
+                            <span class="project-tag">Diagnostics</span>
+                            <span class="project-tag">Intermediate</span>
+                        </div>
+                        <button class="btn btn-disabled w-full">
+                            <i class="fas fa-lock" aria-hidden="true"></i>
+                            Complete 4 Lessons to Unlock
+                        </button>
+                    </article>
+                    
+                    <article class="project-card loading">
+                        <img src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="Medical billing claims processing workflow with insurance forms and electronic health records system"
+                             class="project-image"
+                             loading="lazy"
+                             srcset="https://images.unsplash.com/photo-1551190822-a9333d879b1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80 400w,
+                                     https://images.unsplash.com/photo-1551190822-a9333d879b1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80 800w"
+                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw">
+                        <h3 class="project-title">Insurance Claims Processing</h3>
+                        <p class="project-description">Complete claims management project including Medicare, Medicaid, and private insurance processing with denial management and appeals procedures.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Claims Processing</span>
+                            <span class="project-tag">Insurance</span>
+                            <span class="project-tag">Advanced</span>
+                        </div>
+                        <button class="btn btn-disabled w-full">
+                            <i class="fas fa-lock" aria-hidden="true"></i>
+                            Complete 5 Lessons to Unlock
+                        </button>
+                    </article>
+                    
+                    <article class="project-card loading">
+                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="Surgical procedure coding and billing documentation with operating room procedures and medical devices"
+                             class="project-image"
+                             loading="lazy"
+                             srcset="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80 400w,
+                                     https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80 800w"
+                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw">
+                        <h3 class="project-title">Surgical Procedure Coding</h3>
+                        <p class="project-description">Advanced surgical coding project covering inpatient procedures, anesthesia billing, and medical device coding with ICD-10-PCS procedural codes.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Surgery</span>
+                            <span class="project-tag">ICD-10-PCS</span>
+                            <span class="project-tag">Advanced</span>
+                        </div>
+                        <button class="btn btn-disabled w-full">
+                            <i class="fas fa-lock" aria-hidden="true"></i>
+                            Complete 6 Lessons to Unlock
+                        </button>
+                    </article>
+                    
+                    <article class="project-card loading">
+                        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="Healthcare compliance audit and quality assurance review with medical billing accuracy assessment"
+                             class="project-image"
+                             loading="lazy"
+                             srcset="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80 400w,
+                                     https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80 800w"
+                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw">
+                        <h3 class="project-title">Compliance Audit Project</h3>
+                        <p class="project-description">Comprehensive billing compliance review including HIPAA regulations, fraud prevention, and quality assurance procedures for healthcare organizations.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Compliance</span>
+                            <span class="project-tag">HIPAA</span>
+                            <span class="project-tag">Expert</span>
+                        </div>
+                        <button class="btn btn-disabled w-full">
+                            <i class="fas fa-crown" aria-hidden="true"></i>
+                            Capstone Project
+                        </button>
+                    </article>
+                    
+                    <article class="project-card loading">
+                        <img src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="Electronic health records system integration with medical billing software and practice management platform"
+                             class="project-image"
+                             loading="lazy"
+                             srcset="https://images.unsplash.com/photo-1551190822-a9333d879b1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80 400w,
+                                     https://images.unsplash.com/photo-1551190822-a9333d879b1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80 800w"
+                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw">
+                        <h3 class="project-title">EHR Integration Specialist</h3>
+                        <p class="project-description">Advanced project focusing on electronic health records integration, practice management systems, and automated billing workflow optimization.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">EHR Systems</span>
+                            <span class="project-tag">Integration</span>
+                            <span class="project-tag">Expert</span>
+                        </div>
+                        <button class="btn btn-disabled w-full">
+                            <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                            Final Certification
+                        </button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Enhanced Terminology Section -->
+        <section id="terminology" class="section terminology-section" role="region" aria-labelledby="terminology-heading">
+            <div class="container">
+                <div class="terminology-header">
+                    <h2 id="terminology-heading">Medical Billing & Coding Terminology</h2>
+                    <p class="lead">Master the professional vocabulary of healthcare administration. Search, explore, and understand key concepts essential for medical billing and coding success.</p>
+                    
+                    <div class="search-container">
+                        <div class="search-icon">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </div>
+                        <input type="text" id="termSearch" class="search-input" placeholder="Search medical billing terms..." aria-label="Search medical billing and coding terminology">
+                    </div>
+                    
+                    <div class="terminology-filters">
+                        <button class="filter-btn active" data-filter="all">All Terms</button>
+                        <button class="filter-btn" data-filter="basic">Fundamentals</button>
+                        <button class="filter-btn" data-filter="intermediate">Coding Systems</button>
+                        <button class="filter-btn" data-filter="advanced">Advanced Practice</button>
+                        <button class="filter-btn" data-filter="medical">Medical Procedures</button>
+                    </div>
+                </div>
+                
+                <div class="terminology-grid" id="terminologyGrid">
+                    <!-- Terms will be dynamically generated -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal" role="dialog" aria-labelledby="loginModalTitle" aria-hidden="true">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="loginModalTitle">Join MedCode Academy</h2>
+                <button class="modal-close" aria-label="Close modal">&times;</button>
+            </div>
+            <div class="login-form">
+                <p class="text-center mb-4 text-gray-600">Create your account to unlock the complete medical billing and coding curriculum. Your path to healthcare administration expertise starts here!</p>
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="username" class="form-label">Choose Your Username</label>
+                        <input type="text" id="username" class="form-input" required minlength="3" maxlength="20" placeholder="Enter a unique username">
+                        <small class="text-gray-600">3-20 characters, letters and numbers only</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="form-label">Create 5-Digit Access Code</label>
+                        <input type="password" id="password" class="form-input" required pattern="[0-9]{5}" placeholder="Enter your 5-digit access code" maxlength="5">
+                        <small class="text-gray-600">Use exactly 5 digits for secure access (e.g., 12345)</small>
+                    </div>
+                    <button type="submit" class="btn btn-medical w-full">
+                        <i class="fas fa-stethoscope" aria-hidden="true"></i>
+                        Begin Healthcare Training
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lesson Modal -->
+    <div id="lessonModal" class="modal" role="dialog" aria-labelledby="lessonModalTitle" aria-hidden="true">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="lessonModalTitle">Lesson Title</h2>
+                <button class="modal-close" aria-label="Close modal">&times;</button>
+            </div>
+            <div id="lessonContent">
+                <!-- Lesson content will be dynamically loaded -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Animation -->
+    <div id="successAnimation" class="success-animation">
+        <div class="success-icon">🏥</div>
+        <h3>Excellent Progress!</h3>
+        <p>You've mastered another healthcare administration concept!</p>
+        <div class="token-earned">
+            <i class="fas fa-coins" aria-hidden="true"></i>
+            +20 Tokens Earned
+        </div>
+    </div>
+
+    <script>
+        // Enhanced Audio System for Medical Training
+        class MedicalAudioManager {
+            constructor() {
+                this.audioContext = null;
+                this.isEnabled = true;
+                this.initAudioContext();
+                this.loadSoundPreferences();
+            }
+
+            initAudioContext() {
+                try {
+                    this.audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                } catch (e) {
+                    console.log('Web Audio API not supported');
+                }
+            }
+
+            loadSoundPreferences() {
+                const soundEnabled = localStorage.getItem('medcode_sound_enabled');
+                this.isEnabled = soundEnabled !== 'false';
+                this.updateSoundButton();
+            }
+
+            updateSoundButton() {
+                const soundButton = document.getElementById('soundControl');
+                const icon = soundButton.querySelector('i');
+                
+                if (this.isEnabled) {
+                    soundButton.classList.remove('muted');
+                    icon.className = 'fas fa-volume-up';
+                    soundButton.title = 'Turn sound off';
+                } else {
+                    soundButton.classList.add('muted');
+                    icon.className = 'fas fa-volume-mute';
+                    soundButton.title = 'Turn sound on';
+                }
+            }
+
+            toggleSound() {
+                this.isEnabled = !this.isEnabled;
+                localStorage.setItem('medcode_sound_enabled', this.isEnabled);
+                this.updateSoundButton();
+                
+                if (this.isEnabled) {
+                    this.playTestSound();
+                }
+            }
+
+            playTestSound() {
+                if (!this.isEnabled || !this.audioContext) return;
+                this.playNote(660, 0.2, 'sine');
+            }
+
+            playMedicalSuccessJingle() {
+                if (!this.isEnabled || !this.audioContext) return;
+
+                // Medical-themed success melody - calming and professional
+                const melody = [
+                    { freq: 440, duration: 0.2, type: 'sine' },    // A4
+                    { freq: 554.37, duration: 0.2, type: 'sine' }, // C#5
+                    { freq: 659.25, duration: 0.2, type: 'sine' }, // E5
+                    { freq: 880, duration: 0.3, type: 'sine' },    // A5
+                    { freq: 1108.73, duration: 0.25, type: 'sine' }, // C#6
+                    { freq: 1318.51, duration: 0.35, type: 'sine' }, // E6
+                ];
+
+                let startTime = this.audioContext.currentTime;
+
+                melody.forEach((note, index) => {
+                    this.playNote(note.freq, note.duration, note.type, startTime);
+                    startTime += note.duration * 0.85;
+                });
+
+                // Add harmonious healthcare-themed chord
+                setTimeout(() => {
+                    this.playChord([440, 554.37, 659.25], 1.0);
+                }, 1200);
+            }
+
+            playNote(frequency, duration, waveType = 'sine', startTime = null) {
+                const oscillator = this.audioContext.createOscillator();
+                const gainNode = this.audioContext.createGain();
+                const filterNode = this.audioContext.createBiquadFilter();
+
+                oscillator.connect(filterNode);
+                filterNode.connect(gainNode);
+                gainNode.connect(this.audioContext.destination);
+
+                oscillator.frequency.setValueAtTime(frequency, startTime || this.audioContext.currentTime);
+                oscillator.type = waveType;
+
+                filterNode.type = 'lowpass';
+                filterNode.frequency.setValueAtTime(frequency * 2.5, startTime || this.audioContext.currentTime);
+
+                const start = startTime || this.audioContext.currentTime;
+                gainNode.gain.setValueAtTime(0, start);
+                gainNode.gain.linearRampToValueAtTime(0.25, start + 0.02);
+                gainNode.gain.exponentialRampToValueAtTime(0.01, start + duration);
+
+                oscillator.start(start);
+                oscillator.stop(start + duration);
+            }
+
+            playChord(frequencies, duration) {
+                frequencies.forEach(freq => {
+                    this.playNote(freq, duration, 'sine');
+                });
+            }
+        }
+
+        // Enhanced Medical Billing Academy App
+        class MedCodeAcademy {
+            constructor() {
+                this.currentUser = null;
+                this.lessons = this.initializeLessons();
+                this.terminology = this.initializeTerminology();
+                this.userProgress = this.loadProgress();
+                this.audioManager = new MedicalAudioManager();
+                this.currentLessonQuizIndex = 0;
+                this.currentLessonScore = 0;
+                this.init();
+            }
+
+            init() {
+                this.setupEventListeners();
+                this.renderLessons();
+                this.renderTerminology();
+                this.checkLoginStatus();
+                this.setupSoundControl();
+                this.initializeAnimations();
+            }
+
+            setupSoundControl() {
+                document.getElementById('soundControl').addEventListener('click', () => {
+                    this.audioManager.toggleSound();
+                });
+            }
+
+            initializeAnimations() {
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('loaded');
+                        }
+                    });
+                }, { threshold: 0.1 });
+
+                document.querySelectorAll('.loading').forEach(el => {
+                    observer.observe(el);
+                });
+            }
+
+            initializeLessons() {
+                return [
+                    {
+                        id: 1,
+                        title: "Introduction to Medical Billing & Coding",
+                        description: "Discover the fundamental role of medical billing and coding in healthcare administration. Learn about career opportunities and industry standards.",
+                        duration: "25 min",
+                        difficulty: "beginner",
+                        unlocked: true,
+                        content: `
+                            <div class="lesson-content">
+                                <h3>🏥 Welcome to Healthcare Administration</h3>
+                                <p>Medical billing and coding is the backbone of healthcare revenue cycle management. Professionals in this field translate medical services into standardized codes for billing and insurance purposes.</p>
+                                
+                                <h4>🎯 Role of Medical Billing & Coding Professionals</h4>
+                                <ul>
+                                    <li><strong>Medical Coders:</strong> Assign standardized codes to diagnoses and procedures</li>
+                                    <li><strong>Medical Billers:</strong> Process claims and manage revenue collection</li>
+                                    <li><strong>Compliance Officers:</strong> Ensure adherence to healthcare regulations</li>
+                                    <li><strong>Audit Specialists:</strong> Review coding accuracy and compliance</li>
+                                </ul>
+                                
+                                <h4>📊 Industry Overview</h4>
+                                <ul>
+                                    <li>Healthcare industry employs over 16 million professionals</li>
+                                    <li>Medical billing and coding jobs projected to grow 8% through 2029</li>
+                                    <li>Average salary ranges from $35,000 to $55,000 annually</li>
+                                    <li>Work opportunities in hospitals, clinics, insurance companies, and remote positions</li>
+                                </ul>
+                                
+                                <h4>🔄 Revenue Cycle Management</h4>
+                                <ol>
+                                    <li><strong>Patient Registration:</strong> Collect demographic and insurance information</li>
+                                    <li><strong>Eligibility Verification:</strong> Confirm insurance coverage and benefits</li>
+                                    <li><strong>Service Documentation:</strong> Record medical procedures and diagnoses</li>
+                                    <li><strong>Code Assignment:</strong> Apply appropriate ICD-10 and CPT codes</li>
+                                    <li><strong>Claims Submission:</strong> Submit electronic or paper claims to payers</li>
+                                    <li><strong>Payment Processing:</strong> Receive and post payments from insurance companies</li>
+                                    <li><strong>Follow-up:</strong> Manage denials, appeals, and patient collections</li>
+                                </ol>
+                                
+                                <div class="bg-blue-50 p-4 rounded-lg mt-4">
+                                    <p><strong>💡 Career Insight:</strong> Medical billing and coding offers excellent work-life balance with many remote opportunities and flexible scheduling options.</p>
+                                </div>
+                            </div>
+                        `,
+                        quiz: [
+                            {
+                                question: "What is the primary purpose of medical coding in healthcare?",
+                                options: [
+                                    "To schedule patient appointments",
+                                    "To translate medical services into standardized codes for billing",
+                                    "To prescribe medications",
+                                    "To perform medical procedures"
+                                ],
+                                correct: 1,
+                                explanation: "Medical coding translates medical diagnoses, procedures, and services into standardized codes for billing and insurance processing."
+                            },
+                            {
+                                question: "Which step comes first in the revenue cycle management process?",
+                                options: [
+                                    "Claims submission",
+                                    "Code assignment",
+                                    "Patient registration",
+                                    "Payment processing"
+                                ],
+                                correct: 2,
+                                explanation: "Patient registration is the first step, where demographic and insurance information is collected before any services are provided."
+                            },
+                            {
+                                question: "What is the projected job growth rate for medical billing and coding through 2029?",
+                                options: [
+                                    "3%",
+                                    "5%",
+                                    "8%",
+                                    "12%"
+                                ],
+                                correct: 2,
+                                explanation: "The Bureau of Labor Statistics projects 8% growth for medical billing and coding jobs through 2029, faster than average for all occupations."
+                            }
+                        ]
+                    },
+                    {
+                        id: 2,
+                        title: "Medical Terminology Fundamentals",
+                        description: "Master essential medical terminology including anatomical terms, common abbreviations, and healthcare vocabulary critical for accurate coding.",
+                        duration: "30 min",
+                        difficulty: "beginner",
+                        unlocked: false,
+                        content: `
+                            <div class="lesson-content">
+                                <h3>🔤 Building Your Medical Vocabulary</h3>
+                                <p>Medical terminology is the language of healthcare. Understanding roots, prefixes, and suffixes enables you to decode complex medical terms and improve coding accuracy.</p>
+                                
+                                <h4>📚 Word Building Components</h4>
+                                <div class="grid grid-2 gap-4 mb-4">
+                                    <div class="bg-blue-50 p-4 rounded-lg">
+                                        <h5><strong>Prefixes (Beginning)</strong></h5>
+                                        <ul>
+                                            <li><strong>Brady-:</strong> Slow (bradycardia)</li>
+                                            <li><strong>Tachy-:</strong> Fast (tachycardia)</li>
+                                            <li><strong>Hyper-:</strong> Above, excessive</li>
+                                            <li><strong>Hypo-:</strong> Below, deficient</li>
+                                            <li><strong>Pre-:</strong> Before (preoperative)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="bg-green-50 p-4 rounded-lg">
+                                        <h5><strong>Suffixes (Ending)</strong></h5>
+                                        <ul>
+                                            <li><strong>-itis:</strong> Inflammation (arthritis)</li>
+                                            <li><strong>-ectomy:</strong> Removal (appendectomy)</li>
+                                            <li><strong>-ology:</strong> Study of (cardiology)</li>
+                                            <li><strong>-pathy:</strong> Disease (neuropathy)</li>
+                                            <li><strong>-scopy:</strong> Visual examination</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <h4>🏥 Body Systems and Terminology</h4>
+                                <ul>
+                                    <li><strong>Cardiovascular:</strong> Heart and blood vessels (cardio = heart, vascular = vessels)</li>
+                                    <li><strong>Respiratory:</strong> Lungs and breathing (pulmon = lung, pneumo = air)</li>
+                                    <li><strong>Gastrointestinal:</strong> Digestive system (gastro = stomach, entero = intestine)</li>
+                                    <li><strong>Musculoskeletal:</strong> Bones and muscles (osteo = bone, myo = muscle)</li>
+                                    <li><strong>Neurological:</strong> Nervous system (neuro = nerve, cerebr = brain)</li>
+                                </ul>
+                                
+                                <h4>📋 Common Medical Abbreviations</h4>
+                                <ul>
+                                    <li><strong>Dx:</strong> Diagnosis</li>
+                                    <li><strong>Tx:</strong> Treatment</li>
+                                    <li><strong>Sx:</strong> Symptoms</li>
+                                    <li><strong>H&P:</strong> History and Physical</li>
+                                    <li><strong>CBC:</strong> Complete Blood Count</li>
+                                    <li><strong>EKG/ECG:</strong> Electrocardiogram</li>
+                                    <li><strong>MRI:</strong> Magnetic Resonance Imaging</li>
+                                    <li><strong>CT:</strong> Computed Tomography</li>
+                                </ul>
+                                
+                                <div class="bg-yellow-50 p-4 rounded-lg mt-4">
+                                    <p><strong>⚠️ Coding Tip:</strong> Always verify medical terminology and abbreviations when coding. When in doubt, refer to medical dictionaries or consult with clinical staff.</p>
+                                </div>
+                            </div>
+                        `,
+                        quiz: [
+                            {
+                                question: "What does the prefix 'tachy-' mean in medical terminology?",
+                                options: [
+                                    "Slow",
+                                    "Fast",
+                                    "Above",
+                                    "Below"
+                                ],
+                                correct: 1,
+                                explanation: "Tachy- means fast or rapid, as in tachycardia (fast heart rate) or tachypnea (rapid breathing)."
+                            },
+                            {
+                                question: "The suffix '-ectomy' refers to:",
+                                options: [
+                                    "Inflammation",
+                                    "Study of",
+                                    "Surgical removal",
+                                    "Visual examination"
+                                ],
+                                correct: 2,
+                                explanation: "-ectomy means surgical removal, as in appendectomy (removal of appendix) or cholecystectomy (removal of gallbladder)."
+                            },
+                            {
+                                question: "What does the abbreviation 'Dx' stand for?",
+                                options: [
+                                    "Treatment",
+                                    "Diagnosis",
+                                    "Symptoms",
+                                    "Surgery"
+                                ],
+                                correct: 1,
+                                explanation: "Dx is the standard medical abbreviation for diagnosis, commonly used in medical documentation."
+                            }
+                        ]
+                    },
+                    {
+                        id: 3,
+                        title: "ICD-10-CM Diagnostic Coding",
+                        description: "Learn the International Classification of Diseases system for diagnostic coding, including code structure, conventions, and proper application.",
+                        duration: "35 min",
+                        difficulty: "intermediate",
+                        unlocked: false,
+                        content: `
+                            <div class="lesson-content">
+                                <h3>🔍 Mastering ICD-10-CM Diagnostic Coding</h3>
+                                <p>ICD-10-CM (International Classification of Diseases, 10th Revision, Clinical Modification) is the standard for diagnostic coding in the United States, containing over 70,000 codes.</p>
+                                
+                                <h4>📖 ICD-10-CM Code Structure</h4>
+                                <div class="bg-blue-50 p-4 rounded-lg mb-4">
+                                    <h5><strong>Code Format: A12.345</strong></h5>
+                                    <ul>
+                                        <li><strong>Position 1:</strong> Letter (A-Z) - Category</li>
+                                        <li><strong>Position 2-3:</strong> Numbers - Category</li>
+                                        <li><strong>Position 4:</strong> Decimal point</li>
+                                        <li><strong>Position 5-7:</strong> Additional specificity</li>
+                                    </ul>
+                                    <p><strong>Example:</strong> M79.601 - Pain in right arm</p>
+                                </div>
+                                
+                                <h4>📚 ICD-10-CM Organization</h4>
+                                <ul>
+                                    <li><strong>Chapter 1 (A00-B99):</strong> Infectious and parasitic diseases</li>
+                                    <li><strong>Chapter 2 (C00-D49):</strong> Neoplasms</li>
+                                    <li><strong>Chapter 9 (I00-I99):</strong> Circulatory system diseases</li>
+                                    <li><strong>Chapter 10 (J00-J99):</strong> Respiratory system diseases</li>
+                                    <li><strong>Chapter 13 (M00-M99):</strong> Musculoskeletal system diseases</li>
+                                    <li><strong>Chapter 19 (S00-T88):</strong> Injury and poisoning</li>
+                                </ul>
+                                
+                                <h4>⚙️ Coding Conventions and Guidelines</h4>
+                                <ul>
+                                    <li><strong>Code First:</strong> Underlying condition takes priority</li>
+                                    <li><strong>Use Additional Code:</strong> Secondary codes may be required</li>
+                                    <li><strong>Excludes1:</strong> Conditions cannot be coded together</li>
+                                    <li><strong>Excludes2:</strong> Conditions not included but may be coded separately</li>
+                                    <li><strong>NEC:</strong> Not Elsewhere Classified</li>
+                                    <li><strong>NOS:</strong> Not Otherwise Specified</li>
+                                </ul>
+                                
+                                <h4>🎯 Coding Best Practices</h4>
+                                <ol>
+                                    <li><strong>Read Documentation Thoroughly:</strong> Understand the complete clinical picture</li>
+                                    <li><strong>Use Alphabetic Index First:</strong> Start with the main term in the index</li>
+                                    <li><strong>Verify in Tabular List:</strong> Confirm code selection and check for additional requirements</li>
+                                    <li><strong>Apply Guidelines:</strong> Follow official coding guidelines and conventions</li>
+                                    <li><strong>Code to Highest Specificity:</strong> Use the most specific code available</li>
+                                </ol>
+                                
+                                <h4>📝 Common Coding Scenarios</h4>
+                                <ul>
+                                    <li><strong>Type 2 Diabetes with Nephropathy:</strong> E11.21</li>
+                                    <li><strong>Essential Hypertension:</strong> I10</li>
+                                    <li><strong>Acute Myocardial Infarction:</strong> I21.9 (unspecified site)</li>
+                                    <li><strong>Pneumonia, unspecified:</strong> J18.9</li>
+                                </ul>
+                                
+                                <div class="bg-green-50 p-4 rounded-lg mt-4">
+                                    <p><strong>💡 Professional Tip:</strong> Always query physicians for clarification when documentation is unclear or incomplete. Accurate coding depends on precise clinical documentation.</p>
+                                </div>
+                            </div>
+                        `,
+                        quiz: [
+                            {
+                                question: "How many positions can an ICD-10-CM code have?",
+                                options: [
+                                    "3-5 characters",
+                                    "3-7 characters",
+                                    "5-7 characters",
+                                    "3-6 characters"
+                                ],
+                                correct: 1,
+                                explanation: "ICD-10-CM codes can range from 3 to 7 characters, with the 4th position always being a decimal point when applicable."
+                            },
+                            {
+                                question: "What does 'NOS' mean in ICD-10-CM coding?",
+                                options: [
+                                    "Not on Schedule",
+                                    "Not Otherwise Specified",
+                                    "Not of Significance",
+                                    "No Other Symptoms"
+                                ],
+                                correct: 1,
+                                explanation: "NOS stands for 'Not Otherwise Specified' and is used when documentation doesn't provide enough detail for a more specific code."
+                            },
+                            {
+                                question: "Which step should be taken first when assigning an ICD-10-CM code?",
+                                options: [
+                                    "Check the tabular list",
+                                    "Look up the main term in the alphabetic index",
+                                    "Assign the most general code",
+                                    "Consult coding guidelines"
+                                ],
+                                correct: 1,
+                                explanation: "The alphabetic index should be consulted first to locate the main term, then verify the code in the tabular list."
+                            }
+                        ]
+                    },
+                    {
+                        id: 4,
+                        title: "CPT Procedure Coding",
+                        description: "Master Current Procedural Terminology (CPT) coding for medical procedures, services, and supplies in healthcare billing.",
+                        duration: "40 min",
+                        difficulty: "intermediate",
+                        unlocked: false,
+                        content: `
+                            <div class="lesson-content">
+                                <h3>⚕️ CPT Procedure Coding Mastery</h3>
+                                <p>Current Procedural Terminology (CPT) codes describe medical, surgical, and diagnostic services. Maintained by the American Medical Association, CPT codes are essential for billing medical procedures.</p>
+                                
+                                <h4>📋 CPT Code Categories</h4>
+                                <div class="grid grid-2 gap-4 mb-4">
+                                    <div class="bg-blue-50 p-4 rounded-lg">
+                                        <h5><strong>Category I Codes (00100-99499)</strong></h5>
+                                        <ul>
+                                            <li>Anesthesia (00100-01999)</li>
+                                            <li>Surgery (10021-69990)</li>
+                                            <li>Radiology (70010-79999)</li>
+                                            <li>Pathology/Laboratory (80047-89398)</li>
+                                            <li>Medicine (90281-99607)</li>
+                                            <li>Evaluation & Management (99202-99499)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="bg-green-50 p-4 rounded-lg">
+                                        <h5><strong>Category II & III Codes</strong></h5>
+                                        <ul>
+                                            <li><strong>Category II:</strong> Performance measurement (0001F-9007F)</li>
+                                            <li><strong>Category III:</strong> Temporary codes for emerging procedures (0042T-0XXXt)</li>
+                                            <li>Used for quality reporting</li>
+                                            <li>Optional supplemental codes</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <h4>🏥 Evaluation and Management (E/M) Codes</h4>
+                                <ul>
+                                    <li><strong>New Patient Office Visits:</strong> 99202-99205</li>
+                                    <li><strong>Established Patient Office Visits:</strong> 99212-99215</li>
+                                    <li><strong>Hospital Inpatient:</strong> 99221-99223 (initial), 99231-99233 (subsequent)</li>
+                                    <li><strong>Emergency Department:</strong> 99281-99285</li>
+                                    <li><strong>Consultations:</strong> 99241-99245 (office), 99251-99255 (inpatient)</li>
+                                </ul>
+                                
+                                <h4>🔧 CPT Modifiers</h4>
+                                <ul>
+                                    <li><strong>-25:</strong> Significant, separately identifiable E/M service</li>
+                                    <li><strong>-26:</strong> Professional component only</li>
+                                    <li><strong>-50:</strong> Bilateral procedure</li>
+                                    <li><strong>-59:</strong> Distinct procedural service</li>
+                                    <li><strong>-62:</strong> Two surgeons</li>
+                                    <li><strong>-78:</strong> Return to OR for related procedure</li>
+                                    <li><strong>-LT/-RT:</strong> Left/Right side</li>
+                                </ul>
+                                
+                                <h4>⚡ Surgery Coding Principles</h4>
+                                <ol>
+                                    <li><strong>Global Surgical Package:</strong> Includes pre-op, surgery, and normal post-op care</li>
+                                    <li><strong>Multiple Procedures:</strong> List most extensive procedure first</li>
+                                    <li><strong>Bilateral Procedures:</strong> Use modifier -50 or list twice with -LT/-RT</li>
+                                    <li><strong>Bundled Services:</strong> Some procedures include related services</li>
+                                    <li><strong>Unbundling:</strong> Incorrect separation of bundled procedures</li>
+                                </ol>
+                                
+                                <h4>📊 Common CPT Code Examples</h4>
+                                <ul>
+                                    <li><strong>99213:</strong> Office visit, established patient, low complexity</li>
+                                    <li><strong>99214:</strong> Office visit, established patient, moderate complexity</li>
+                                    <li><strong>36415:</strong> Routine venipuncture</li>
+                                    <li><strong>93000:</strong> Electrocardiogram, complete</li>
+                                    <li><strong>45378:</strong> Colonoscopy, flexible</li>
+                                    <li><strong>19101:</strong> Breast biopsy, open</li>
+                                </ul>
+                                
+                                <div class="bg-yellow-50 p-4 rounded-lg mt-4">
+                                    <p><strong>🎯 Billing Success:</strong> Accurate CPT coding requires understanding the procedure performed, documentation requirements, and appropriate modifier usage to ensure proper reimbursement.</p>
+                                </div>
+                            </div>
+                        `,
+                        quiz: [
+                            {
+                                question: "Which CPT code range is used for Evaluation and Management services?",
+                                options: [
+                                    "90281-99607",
+                                    "99202-99499",
+                                    "70010-79999",
+                                    "10021-69990"
+                                ],
+                                correct: 1,
+                                explanation: "Evaluation and Management (E/M) codes fall in the range 99202-99499 and cover office visits, hospital visits, consultations, and other evaluation services."
+                            },
+                            {
+                                question: "What does CPT modifier -50 indicate?",
+                                options: [
+                                    "Professional component only",
+                                    "Bilateral procedure",
+                                    "Distinct procedural service",
+                                    "Two surgeons"
+                                ],
+                                correct: 1,
+                                explanation: "Modifier -50 indicates a bilateral procedure, meaning the same procedure was performed on both sides of the body."
+                            },
+                            {
+                                question: "What is included in a global surgical package?",
+                                options: [
+                                    "Only the surgical procedure",
+                                    "Surgery and post-operative care only",
+                                    "Pre-operative, surgical procedure, and normal post-operative care",
+                                    "Only pre-operative and surgical procedure"
+                                ],
+                                correct: 2,
+                                explanation: "The global surgical package includes pre-operative care, the surgical procedure itself, and normal post-operative care for a specified period."
+                            }
+                        ]
+                    },
+                    {
+                        id: 5,
+                        title: "Insurance and Claims Processing",
+                        description: "Understand insurance types, claims submission processes, denial management, and reimbursement methodologies in healthcare billing.",
+                        duration: "45 min",
+                        difficulty: "intermediate",
+                        unlocked: false,
+                        content: `
+                            <div class="lesson-content">
+                                <h3>💼 Insurance and Claims Processing Excellence</h3>
+                                <p>Insurance claims processing is the core of medical billing. Understanding different insurance types, claim formats, and reimbursement methods ensures successful revenue collection.</p>
+                                
+                                <h4>🏛️ Types of Insurance</h4>
+                                <div class="grid grid-2 gap-4 mb-4">
+                                    <div class="bg-blue-50 p-4 rounded-lg">
+                                        <h5><strong>Government Insurance</strong></h5>
+                                        <ul>
+                                            <li><strong>Medicare:</strong> Federal program for 65+ and disabled</li>
+                                            <li><strong>Medicaid:</strong> State program for low-income individuals</li>
+                                            <li><strong>TRICARE:</strong> Military health insurance</li>
+                                            <li><strong>Workers' Compensation:</strong> Work-related injuries</li>
+                                        </ul>
+                                    </div>
+                                    <div class="bg-green-50 p-4 rounded-lg">
+                                        <h5><strong>Private Insurance</strong></h5>
+                                        <ul>
+                                            <li><strong>Group Plans:</strong> Employer-sponsored coverage</li>
+                                            <li><strong>Individual Plans:</strong> Privately purchased policies</li>
+                                            <li><strong>HMO:</strong> Health Maintenance Organization</li>
+                                            <li><strong>PPO:</strong> Preferred Provider Organization</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <h4>📄 Claims Submission Process</h4>
+                                <ol>
+                                    <li><strong>Patient Registration:</strong> Collect insurance information and verify coverage</li>
+                                    <li><strong>Service Documentation:</strong> Physician documents services provided</li>
+                                    <li><strong>Code Assignment:</strong> Assign appropriate ICD-10 and CPT codes</li>
+                                    <li><strong>Claim Generation:</strong> Create electronic (EDI) or paper claim</li>
+                                    <li><strong>Claim Submission:</strong> Submit to appropriate insurance payer</li>
+                                    <li><strong>Claim Processing:</strong> Insurance reviews and processes claim</li>
+                                    <li><strong>Payment/Denial:</strong> Receive payment or denial notification</li>
+                                </ol>
+                                
+                                <h4>💰 Reimbursement Methods</h4>
+                                <ul>
+                                    <li><strong>Fee-for-Service:</strong> Payment for each service provided</li>
+                                    <li><strong>Capitation:</strong> Fixed monthly payment per patient</li>
+                                    <li><strong>DRG (Diagnosis Related Groups):</strong> Fixed payment based on diagnosis</li>
+                                    <li><strong>Bundled Payments:</strong> Single payment for episode of care</li>
+                                    <li><strong>Value-Based Care:</strong> Payment based on quality outcomes</li>
+                                </ul>
+                                
+                                <h4>❌ Common Denial Reasons</h4>
+                                <ul>
+                                    <li><strong>Medical Necessity:</strong> Service not deemed medically necessary</li>
+                                    <li><strong>Missing Information:</strong> Incomplete or missing documentation</li>
+                                    <li><strong>Coding Errors:</strong> Incorrect or mismatched codes</li>
+                                    <li><strong>Eligibility Issues:</strong> Patient not covered or benefits exhausted</li>
+                                    <li><strong>Timely Filing:</strong> Claim submitted after deadline</li>
+                                    <li><strong>Duplicate Claims:</strong> Service already billed and paid</li>
+                                </ul>
+                                
+                                <h4>🔄 Denial Management Process</h4>
+                                <ol>
+                                    <li><strong>Denial Analysis:</strong> Review denial reason and supporting documentation</li>
+                                    <li><strong>Corrective Action:</strong> Address coding errors or missing information</li>
+                                    <li><strong>Appeal Preparation:</strong> Gather supporting documentation and rationale</li>
+                                    <li><strong>Appeal Submission:</strong> Submit formal appeal with required documentation</li>
+                                    <li><strong>Follow-up:</strong> Track appeal status and response timeframes</li>
+                                    <li><strong>Secondary Appeals:</strong> File additional appeals if necessary</li>
+                                </ol>
+                                
+                                <h4>📊 Key Performance Indicators (KPIs)</h4>
+                                <ul>
+                                    <li><strong>Clean Claim Rate:</strong> Percentage of claims paid on first submission</li>
+                                    <li><strong>Days in A/R:</strong> Average days to collect payment</li>
+                                    <li><strong>Denial Rate:</strong> Percentage of claims denied</li>
+                                    <li><strong>Collection Rate:</strong> Percentage of billed amounts collected</li>
+                                    <li><strong>Net Collection Rate:</strong> Collections as percentage of adjusted charges</li>
+                                </ul>
+                                
+                                <div class="bg-red-50 p-4 rounded-lg mt-4">
+                                    <p><strong>⚡ Critical Success Factor:</strong> Successful claims processing requires attention to detail, understanding of payer requirements, and proactive denial management to maximize revenue collection.</p>
+                                </div>
+                            </div>
+                        `,
+                        quiz: [
+                            {
+                                question: "What is the federal insurance program for individuals 65 and older?",
+                                options: [
+                                    "Medicaid",
+                                    "Medicare",
+                                    "TRICARE",
+                                    "Workers' Compensation"
+                                ],
+                                correct: 1,
+                                explanation: "Medicare is the federal insurance program that provides health coverage for individuals 65 and older, as well as some younger people with disabilities."
+                            },
+                            {
+                                question: "What does a 'clean claim rate' measure?",
+                                options: [
+                                    "Total claims submitted per month",
+                                    "Percentage of claims paid on first submission",
+                                    "Average payment amount per claim",
+                                    "Number of denied claims"
+                                ],
+                                correct: 1,
+                                explanation: "Clean claim rate measures the percentage of claims that are paid by insurance companies on the first submission without requiring corrections or additional information."
+                            },
+                            {
+                                question: "In a capitation reimbursement model, providers receive:",
+                                options: [
+                                    "Payment for each service provided",
+                                    "A fixed monthly payment per patient",
+                                    "Payment based on quality outcomes",
+                                    "Payment only after patient recovery"
+                                ],
+                                correct: 1,
+                                explanation: "Capitation is a payment model where providers receive a fixed monthly payment per patient, regardless of the number or complexity of services provided."
+                            }
+                        ]
+                    },
+                    {
+                        id: 6,
+                        title: "Healthcare Compliance and Regulations",
+                        description: "Master HIPAA requirements, healthcare compliance standards, fraud prevention, and legal considerations in medical billing and coding.",
+                        duration: "50 min",
+                        difficulty: "advanced",
+                        unlocked: false,
+                        content: `
+                            <div class="lesson-content">
+                                <h3>⚖️ Healthcare Compliance and Legal Framework</h3>
+                                <p>Healthcare compliance ensures patient privacy, prevents fraud, and maintains ethical billing practices. Understanding regulations is crucial for career success and legal protection.</p>
+                                
+                                <h4>🔒 HIPAA Privacy and Security</h4>
+                                <div class="bg-blue-50 p-4 rounded-lg mb-4">
+                                    <h5><strong>Protected Health Information (PHI)</strong></h5>
+                                    <ul>
+                                        <li>Any health information that can identify a patient</li>
+                                        <li>Includes medical records, billing information, and conversations</li>
+                                        <li>Must be protected in all forms: written, electronic, and oral</li>
+                                        <li>Minimum necessary rule: Use/disclose only what's needed</li>
+                                    </ul>
+                                </div>
+                                
+                                <h4>📋 HIPAA Compliance Requirements</h4>
+                                <ul>
+                                    <li><strong>Patient Rights:</strong> Access, amendment, and accounting of disclosures</li>
+                                    <li><strong>Authorization:</strong> Patient consent for most PHI disclosures</li>
+                                    <li><strong>Business Associates:</strong> Contracts with vendors handling PHI</li>
+                                    <li><strong>Breach Notification:</strong> Report PHI breaches within 60 days</li>
+                                    <li><strong>Training:</strong> Regular employee training on privacy practices</li>
+                                    <li><strong>Policies:</strong> Written procedures for PHI handling</li>
+                                </ul>
+                                
+                                <h4>🚫 Healthcare Fraud Prevention</h4>
+                                <div class="grid grid-2 gap-4 mb-4">
+                                    <div class="bg-red-50 p-4 rounded-lg">
+                                        <h5><strong>Types of Healthcare Fraud</strong></h5>
+                                        <ul>
+                                            <li><strong>Upcoding:</strong> Using higher-level codes for more payment</li>
+                                            <li><strong>Unbundling:</strong> Billing separately for bundled services</li>
+                                            <li><strong>Duplicate Billing:</strong> Billing multiple times for same service</li>
+                                            <li><strong>Services Not Rendered:</strong> Billing for services not provided</li>
+                                        </ul>
+                                    </div>
+                                    <div class="bg-green-50 p-4 rounded-lg">
+                                        <h5><strong>Prevention Strategies</strong></h5>
+                                        <ul>
+                                            <li>Regular coding audits and reviews</li>
+                                            <li>Proper documentation requirements</li>
+                                            <li>Staff training on ethical billing</li>
+                                            <li>Compliance monitoring programs</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <h4>⚖️ Key Healthcare Laws</h4>
+                                <ul>
+                                    <li><strong>False Claims Act:</strong> Prohibits submission of false claims to government programs</li>
+                                    <li><strong>Stark Law:</strong> Prohibits physician self-referrals for certain services</li>
+                                    <li><strong>Anti-Kickback Statute:</strong> Prohibits payments for patient referrals</li>
+                                    <li><strong>EMTALA:</strong> Emergency treatment and patient transfer requirements</li>
+                                    <li><strong>Affordable Care Act:</strong> Healthcare insurance and quality requirements</li>
+                                </ul>
+                                
+                                <h4>🔍 Compliance Program Elements</h4>
+                                <ol>
+                                    <li><strong>Written Policies:</strong> Clear compliance policies and procedures</li>
+                                    <li><strong>Compliance Officer:</strong> Designated person to oversee compliance</li>
+                                    <li><strong>Training Programs:</strong> Regular education for all staff</li>
+                                    <li><strong>Communication:</strong> Methods for reporting compliance concerns</li>
+                                    <li><strong>Auditing:</strong> Regular monitoring and internal audits</li>
+                                    <li><strong>Corrective Action:</strong> Procedures for addressing violations</li>
+                                    <li><strong>Enforcement:</strong> Disciplinary measures for non-compliance</li>
+                                </ol>
+                                
+                                <h4>📊 Quality Assurance in Coding</h4>
+                                <ul>
+                                    <li><strong>Coding Accuracy Audits:</strong> Regular review of coding decisions</li>
+                                    <li><strong>Documentation Improvement:</strong> Working with providers to improve records</li>
+                                    <li><strong>Continuing Education:</strong> Staying current with coding changes</li>
+                                    <li><strong>Benchmarking:</strong> Comparing performance to industry standards</li>
+                                    <li><strong>Error Analysis:</strong> Identifying and correcting common mistakes</li>
+                                </ul>
+                                
+                                <h4>⚠️ Consequences of Non-Compliance</h4>
+                                <ul>
+                                    <li><strong>Financial Penalties:</strong> Fines and repayment of incorrect claims</li>
+                                    <li><strong>Criminal Charges:</strong> Potential imprisonment for fraud</li>
+                                    <li><strong>License Loss:</strong> Professional license revocation</li>
+                                    <li><strong>Exclusion:</strong> Barred from government programs</li>
+                                    <li><strong>Reputation Damage:</strong> Loss of professional credibility</li>
+                                </ul>
+                                
+                                <div class="bg-yellow-50 p-4 rounded-lg mt-4">
+                                    <p><strong>🎯 Professional Excellence:</strong> Ethical billing practices and compliance adherence are not just legal requirements—they're the foundation of professional integrity in healthcare administration.</p>
+                                </div>
+                            </div>
+                        `,
+                        quiz: [
+                            {
+                                question: "What does PHI stand for in healthcare compliance?",
+                                options: [
+                                    "Patient Health Insurance",
+                                    "Protected Health Information",
+                                    "Private Healthcare Information",
+                                    "Personal Health Identification"
+                                ],
+                                correct: 1,
+                                explanation: "PHI stands for Protected Health Information, which includes any health information that can identify a patient and must be protected under HIPAA."
+                            },
+                            {
+                                question: "What is 'upcoding' in healthcare billing?",
+                                options: [
+                                    "Using electronic coding systems",
+                                    "Billing for services not provided",
+                                    "Using higher-level codes than justified for increased payment",
+                                    "Coding procedures before they are performed"
+                                ],
+                                correct: 2,
+                                explanation: "Upcoding is the fraudulent practice of using higher-level procedure or diagnosis codes than justified by the documentation to receive higher reimbursement."
+                            },
+                            {
+                                question: "Under HIPAA, when must healthcare organizations report PHI breaches?",
+                                options: [
+                                    "Within 30 days",
+                                    "Within 60 days",
+                                    "Within 90 days",
+                                    "Within 120 days"
+                                ],
+                                correct: 1,
+                                explanation: "HIPAA requires covered entities to report PHI breaches affecting 500 or more individuals to HHS within 60 days of discovery."
+                            }
+                        ]
+                    }
+                ];
+            }
+
+            initializeTerminology() {
+                return [
+                    {
+                        title: "ICD-10-CM",
+                        definition: "International Classification of Diseases, 10th Revision, Clinical Modification. The standard diagnostic coding system used in the United States for reporting diagnoses and inpatient procedures.",
+                        example: "Code M79.601 represents 'Pain in right arm' using ICD-10-CM classification with specific anatomical location.",
+                        category: "basic",
+                        tags: ["diagnosis", "coding", "classification", "medical records"]
+                    },
+                    {
+                        title: "CPT (Current Procedural Terminology)",
+                        definition: "A standardized coding system maintained by the American Medical Association for describing medical, surgical, and diagnostic services performed by healthcare providers.",
+                        example: "CPT code 99213 represents an office visit for an established patient with low to moderate complexity medical decision making.",
+                        category: "basic",
+                        tags: ["procedures", "billing", "AMA", "services"]
+                    },
+                    {
+                        title: "Revenue Cycle Management",
+                        definition: "The financial process healthcare facilities use to track patient care episodes from registration through final payment collection, encompassing all administrative and clinical functions.",
+                        example: "A hospital's revenue cycle includes patient registration, insurance verification, service delivery, coding, billing, and payment collection.",
+                        category: "intermediate",
+                        tags: ["billing", "finance", "workflow", "administration"]
+                    },
+                    {
+                        title: "HIPAA",
+                        definition: "Health Insurance Portability and Accountability Act. Federal legislation that provides data privacy and security provisions for safeguarding medical information and patient rights.",
+                        example: "Under HIPAA, medical billers must obtain patient authorization before disclosing PHI to anyone other than the patient or their designated representatives.",
+                        category: "intermediate",
+                        tags: ["privacy", "compliance", "security", "regulations"]
+                    },
+                    {
+                        title: "Protected Health Information (PHI)",
+                        definition: "Any health information that can be used to identify a patient, including medical records, billing information, and any health data that contains identifying information.",
+                        example: "A patient's medical record containing their name, diagnosis of diabetes, and treatment plan is considered PHI and must be protected under HIPAA.",
+                        category: "basic",
+                        tags: ["privacy", "HIPAA", "patient data", "confidentiality"]
+                    },
+                    {
+                        title: "Medicare",
+                        definition: "Federal health insurance program for people 65 or older, certain younger people with disabilities, and people with End-Stage Renal Disease. Administered by the Centers for Medicare & Medicaid Services.",
+                        example: "A 67-year-old patient's knee replacement surgery would be billed to Medicare Part A for the hospital stay and Part B for physician services.",
+                        category: "basic",
+                        tags: ["insurance", "government", "elderly", "disability"]
+                    },
+                    {
+                        title: "Medicaid",
+                        definition: "Joint federal and state program that provides health coverage to eligible low-income adults, children, pregnant women, elderly adults, and people with disabilities.",
+                        example: "A single mother with two children and annual income below 138% of federal poverty level would qualify for Medicaid coverage in expansion states.",
+                        category: "basic",
+                        tags: ["insurance", "government", "low-income", "state program"]
+                    },
+                    {
+                        title: "Claims Processing",
+                        definition: "The systematic review and adjudication of healthcare claims by insurance companies to determine coverage, calculate payments, and issue reimbursement to healthcare providers.",
+                        example: "After submitting a claim for a patient's annual physical exam, the insurance company processes it and pays the contracted rate within 30 days.",
+                        category: "intermediate",
+                        tags: ["insurance", "reimbursement", "adjudication", "payment"]
+                    },
+                    {
+                        title: "Medical Necessity",
+                        definition: "Healthcare services or supplies needed to diagnose or treat an illness, injury, condition, or disease that meets accepted standards of medical practice and is not primarily for convenience.",
+                        example: "An MRI for a patient with severe back pain and neurological symptoms would be considered medically necessary, while a cosmetic MRI would not.",
+                        category: "intermediate",
+                        tags: ["coverage", "treatment", "standards", "clinical"]
+                    },
+                    {
+                        title: "Modifier",
+                        definition: "A two-digit code appended to CPT or HCPCS codes to provide additional information about the service performed, such as location, circumstances, or extent of service.",
+                        example: "Modifier -50 added to a surgical code indicates the procedure was performed bilaterally (on both sides of the body).",
+                        category: "intermediate",
+                        tags: ["CPT", "billing", "procedures", "specificity"]
+                    },
+                    {
+                        title: "Denial Management",
+                        definition: "The process of analyzing, appealing, and resolving insurance claim denials to maximize reimbursement and reduce accounts receivable.",
+                        example: "When a claim is denied for 'medical necessity,' the billing specialist reviews documentation, obtains additional records, and files an appeal with clinical justification.",
+                        category: "advanced",
+                        tags: ["appeals", "revenue", "insurance", "collections"]
+                    },
+                    {
+                        title: "Clean Claim Rate",
+                        definition: "The percentage of submitted claims that are processed and paid by insurance companies on the first submission without requiring additional information or corrections.",
+                        example: "A medical practice with a 95% clean claim rate means 95 out of every 100 claims submitted are paid without requiring resubmission or additional documentation.",
+                        category: "advanced",
+                        tags: ["KPI", "efficiency", "quality", "performance"]
+                    },
+                    {
+                        title: "Evaluation and Management (E/M)",
+                        definition: "CPT codes that describe patient encounters involving the evaluation of a patient's condition and management of their care, including office visits, consultations, and hospital visits.",
+                        example: "Code 99214 represents an office visit for an established patient requiring moderate complexity medical decision making and typically 25 minutes.",
+                        category: "medical",
+                        tags: ["CPT", "office visits", "complexity", "documentation"]
+                    },
+                    {
+                        title: "Prior Authorization",
+                        definition: "A cost-containment process requiring healthcare providers to obtain advance approval from insurance companies before providing certain services or treatments.",
+                        example: "Before scheduling an MRI, the medical office must obtain prior authorization from the patient's insurance company to ensure coverage.",
+                        category: "intermediate",
+                        tags: ["insurance", "approval", "coverage", "utilization"]
+                    },
+                    {
+                        title: "Coordination of Benefits (COB)",
+                        definition: "The process used by insurance companies to determine which insurance plan pays first when a patient has multiple insurance policies covering the same medical expenses.",
+                        example: "A patient with both employer health insurance and Medicare would have COB rules determine which plan is primary and which is secondary for claim payment.",
+                        category: "advanced",
+                        tags: ["insurance", "multiple coverage", "primary", "secondary"]
+                    },
+                    {
+                        title: "HCPCS (Healthcare Common Procedure Coding System)",
+                        definition: "A standardized coding system used primarily for billing Medicare and Medicaid, consisting of CPT codes (Level I) and national codes for supplies and services not covered by CPT (Level II).",
+                        example: "HCPCS Level II code E0143 represents a walker with four wheels, used for billing durable medical equipment to Medicare.",
+                        category: "medical",
+                        tags: ["coding", "Medicare", "supplies", "equipment"]
+                    }
+                ];
+            }
+
+            setupEventListeners() {
+                // Header scroll behavior
+                window.addEventListener('scroll', this.handleScroll.bind(this));
+                
+                // Mobile menu
+                document.querySelector('.mobile-menu-btn').addEventListener('click', this.toggleMobileMenu.bind(this));
+                
+                // Login buttons
+                document.getElementById('loginBtn').addEventListener('click', this.showLoginModal.bind(this));
+                document.getElementById('mobileLoginBtn').addEventListener('click', this.showLoginModal.bind(this));
+                
+                // Modal close buttons
+                document.querySelectorAll('.modal-close').forEach(btn => {
+                    btn.addEventListener('click', this.closeModals.bind(this));
+                });
+                
+                // Login form
+                document.getElementById('loginForm').addEventListener('submit', this.handleLogin.bind(this));
+                
+                // Close modals on outside click
+                document.querySelectorAll('.modal').forEach(modal => {
+                    modal.addEventListener('click', (e) => {
+                        if (e.target === modal) {
+                            this.closeModals();
+                        }
+                    });
+                });
+                
+                // Smooth scrolling for anchor links
+                document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                    anchor.addEventListener('click', this.smoothScroll.bind(this));
+                });
+
+                // Terminology search and filters
+                document.getElementById('termSearch').addEventListener('input', this.filterTerminology.bind(this));
+                document.querySelectorAll('.filter-btn').forEach(btn => {
+                    btn.addEventListener('click', this.handleFilterClick.bind(this));
+                });
+
+                // Escape key handling
+                document.addEventListener('keydown', (e) => {
+                    if (e.key === 'Escape') {
+                        this.closeModals();
+                    }
+                });
+            }
+
+            handleScroll() {
+                const header = document.querySelector('.header');
+                const scrollTop = window.pageYOffset;
+                
+                if (scrollTop > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            }
+
+            toggleMobileMenu() {
+                const mobileMenu = document.querySelector('.mobile-menu');
+                const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+                const isOpen = mobileMenu.classList.contains('open');
+                
+                mobileMenu.classList.toggle('open');
+                mobileMenuBtn.setAttribute('aria-expanded', !isOpen);
+                
+                const icon = mobileMenuBtn.querySelector('i');
+                icon.className = isOpen ? 'fas fa-bars' : 'fas fa-times';
+            }
+
+            smoothScroll(e) {
+                e.preventDefault();
+                const target = document.querySelector(e.target.getAttribute('href'));
+                if (target) {
+                    const headerHeight = document.querySelector('.header').offsetHeight;
+                    const elementPosition = target.offsetTop - headerHeight;
+                    
+                    window.scrollTo({
+                        top: elementPosition,
+                        behavior: 'smooth'
+                    });
+                }
+                
+                document.querySelector('.mobile-menu').classList.remove('open');
+                document.querySelector('.mobile-menu-btn').setAttribute('aria-expanded', 'false');
+                document.querySelector('.mobile-menu-btn i').className = 'fas fa-bars';
+            }
+
+            showLoginModal() {
+                document.getElementById('loginModal').classList.add('show');
+                document.getElementById('loginModal').setAttribute('aria-hidden', 'false');
+                document.getElementById('username').focus();
+            }
+
+            closeModals() {
+                document.querySelectorAll('.modal').forEach(modal => {
+                    modal.classList.remove('show');
+                    modal.setAttribute('aria-hidden', 'true');
+                });
+            }
+
+            handleLogin(e) {
+                e.preventDefault();
+                const username = document.getElementById('username').value.trim();
+                const password = document.getElementById('password').value;
+                
+                if (username.length < 3) {
+                    this.showNotification('Username must be at least 3 characters long', 'error');
+                    return;
+                }
+                
+                if (password.length !== 5 || !/^\d{5}$/.test(password)) {
+                    this.showNotification('Access code must be exactly 5 digits', 'error');
+                    return;
+                }
+                
+                if (!/^[a-zA-Z0-9]+$/.test(username)) {
+                    this.showNotification('Username can only contain letters and numbers', 'error');
+                    return;
+                }
+                
+                this.currentUser = { username, password };
+                this.saveProgress();
+                this.updateUIForLoggedInUser();
+                this.closeModals();
+                
+                this.showNotification('Welcome to MedCode Academy! Your healthcare administration journey begins now.', 'success');
+                this.audioManager.playTestSound();
+            }
+
+            showNotification(message, type = 'info') {
+                const notification = document.createElement('div');
+                notification.className = `fixed top-4 right-4 p-4 rounded-lg shadow-xl z-50 transition transform translate-x-full`;
+                
+                const bgColor = type === 'success' ? 'bg-green-500' : 
+                               type === 'error' ? 'bg-red-500' : 'bg-blue-500';
+                
+                notification.className += ` ${bgColor} text-white max-w-sm`;
+                notification.innerHTML = `
+                    <div class="flex items-center gap-3">
+                        <i class="fas ${type === 'success' ? 'fa-check-circle' : type === 'error' ? 'fa-exclamation-circle' : 'fa-info-circle'}"></i>
+                        <span>${message}</span>
+                        <button class="ml-auto text-white hover:text-gray-200" onclick="this.parentElement.parentElement.remove()">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                `;
+                
+                document.body.appendChild(notification);
+                
+                setTimeout(() => {
+                    notification.classList.remove('translate-x-full');
+                }, 100);
+                
+                setTimeout(() => {
+                    notification.classList.add('translate-x-full');
+                    setTimeout(() => notification.remove(), 300);
+                }, 5000);
+            }
+
+            checkLoginStatus() {
+                const savedProgress = this.loadProgress();
+                if (savedProgress.user) {
+                    this.currentUser = savedProgress.user;
+                    this.updateUIForLoggedInUser();
+                }
+            }
+
+            updateUIForLoggedInUser() {
+                const loginBtn = document.getElementById('loginBtn');
+                loginBtn.innerHTML = `<i class="fas fa-user-circle"></i> ${this.currentUser.username}`;
+                loginBtn.onclick = () => this.showUserMenu();
+                
+                document.getElementById('dashboard').style.display = 'block';
+                document.getElementById('userName').textContent = `Welcome back, ${this.currentUser.username}!`;
+                document.getElementById('userAvatar').textContent = this.currentUser.username.substring(0, 2).toUpperCase();
+                
+                this.updateProgressDashboard();
+                this.renderLessons();
+            }
+
+            showUserMenu() {
+                const existingMenu = document.querySelector('.user-menu');
+                if (existingMenu) {
+                    existingMenu.remove();
+                    return;
+                }
+
+                const menu = document.createElement('div');
+                menu.className = 'user-menu fixed top-16 right-4 bg-white rounded-lg shadow-xl p-4 z-50 border-2 border-gray-200';
+                menu.innerHTML = `
+                    <div class="text-center mb-3">
+                        <div class="w-12 h-12 bg-gradient-to-br from-medical-teal to-primary-blue rounded-full flex items-center justify-center mx-auto mb-2">
+                            <span class="text-white font-bold">${this.currentUser.username.substring(0, 2).toUpperCase()}</span>
+                        </div>
+                        <p class="font-semibold text-gray-800">${this.currentUser.username}</p>
+                        <p class="text-sm text-gray-600">Medical Billing Student</p>
+                    </div>
+                    <hr class="my-3">
+                    <button onclick="app.showProgress()" class="w-full text-left p-2 hover:bg-gray-100 rounded flex items-center gap-2">
+                        <i class="fas fa-chart-line text-medical-teal"></i>
+                        View Progress
+                    </button>
+                    <button onclick="app.showCertificates()" class="w-full text-left p-2 hover:bg-gray-100 rounded flex items-center gap-2">
+                        <i class="fas fa-certificate text-yellow-500"></i>
+                        Certifications
+                    </button>
+                    <hr class="my-2">
+                    <button onclick="app.logout()" class="w-full text-left p-2 hover:bg-red-50 text-red-600 rounded flex items-center gap-2">
+                        <i class="fas fa-sign-out-alt"></i>
+                        Sign Out
+                    </button>
+                `;
+
+                document.body.appendChild(menu);
+
+                setTimeout(() => {
+                    document.addEventListener('click', function closeMenu(e) {
+                        if (!menu.contains(e.target) && !document.getElementById('loginBtn').contains(e.target)) {
+                            menu.remove();
+                            document.removeEventListener('click', closeMenu);
+                        }
+                    });
+                }, 100);
+            }
+
+            showProgress() {
+                document.querySelector('.user-menu')?.remove();
+                document.getElementById('dashboard').scrollIntoView({ behavior: 'smooth' });
+            }
+
+            showCertificates() {
+                document.querySelector('.user-menu')?.remove();
+                this.showNotification('Medical billing certification will be available after completing all lessons!', 'info');
+            }
+
+            logout() {
+                document.querySelector('.user-menu')?.remove();
+                this.currentUser = null;
+                localStorage.removeItem('medcode_progress');
+                
+                document.getElementById('loginBtn').innerHTML = '<i class="fas fa-user"></i> Start Learning';
+                document.getElementById('loginBtn').onclick = () => this.showLoginModal();
+                document.getElementById('dashboard').style.display = 'none';
+                
+                this.userProgress = { completedLessons: [], tokens: 0, quizzesPassed: 0 };
+                this.renderLessons();
+                
+                this.showNotification('You have been signed out successfully.', 'success');
+            }
+
+            renderLessons() {
+                const lessonsGrid = document.getElementById('lessonsGrid');
+                lessonsGrid.innerHTML = '';
+                
+                this.lessons.forEach((lesson, index) => {
+                    const isCompleted = this.userProgress.completedLessons.includes(lesson.id);
+                    const isUnlocked = lesson.id === 1 || this.userProgress.completedLessons.includes(lesson.id - 1);
+                    const isCurrent = !isCompleted && isUnlocked;
+                    
+                    const lessonCard = document.createElement('article');
+                    lessonCard.className = `lesson-card loading ${isCompleted ? 'completed' : ''} ${!isUnlocked ? 'locked' : ''} ${isCurrent ? 'current' : ''}`;
+                    
+                    lessonCard.innerHTML = `
+                        <div class="lesson-header">
+                            <div class="lesson-number">${lesson.id}</div>
+                            <div class="lesson-status">${isCompleted ? '✅' : !isUnlocked ? '🔒' : '🏥'}</div>
+                        </div>
+                        <h3 class="lesson-title">${lesson.title}</h3>
+                        <p class="lesson-description">${lesson.description}</p>
+                        <div class="lesson-meta">
+                            <div class="lesson-duration">
+                                <i class="fas fa-clock" aria-hidden="true"></i>
+                                <span>${lesson.duration}</span>
+                            </div>
+                            <span class="lesson-difficulty difficulty-${lesson.difficulty}">${lesson.difficulty}</span>
+                        </div>
+                        ${this.renderLessonButton(lesson, isCompleted, isUnlocked)}
+                    `;
+                    
+                    if (isUnlocked) {
+                        lessonCard.addEventListener('click', (e) => {
+                            if (!e.target.closest('button')) {
+                                this.openLesson(lesson);
+                            }
+                        });
+                        lessonCard.style.cursor = 'pointer';
+                    }
+                    
+                    lessonsGrid.appendChild(lessonCard);
+                });
+
+                setTimeout(() => {
+                    document.querySelectorAll('.lesson-card.loading').forEach(card => {
+                        card.classList.add('loaded');
+                    });
+                }, 100);
+            }
+
+            renderLessonButton(lesson, isCompleted, isUnlocked) {
+                if (isCompleted) {
+                    return `<button class="btn btn-success w-full">
+                        <i class="fas fa-trophy" aria-hidden="true"></i>
+                        Completed
+                    </button>`;
+                } else if (isUnlocked) {
+                    return `<button class="btn btn-medical w-full" onclick="app.openLesson(app.lessons[${lesson.id - 1}])">
+                        <i class="fas fa-play" aria-hidden="true"></i>
+                        ${lesson.id === 1 && !this.currentUser ? 'Start Free Lesson' : 'Begin Lesson'}
+                    </button>`;
+                } else {
+                    return `<button class="btn btn-disabled w-full">
+                        <i class="fas fa-lock" aria-hidden="true"></i>
+                        Complete Previous Lesson
+                    </button>`;
+                }
+            }
+
+            openLesson(lesson) {
+                if (lesson.id > 1 && !this.currentUser) {
+                    this.showLoginModal();
+                    return;
+                }
+                
+                const modal = document.getElementById('lessonModal');
+                const title = document.getElementById('lessonModalTitle');
+                const content = document.getElementById('lessonContent');
+                
+                title.textContent = `Lesson ${lesson.id}: ${lesson.title}`;
+                content.innerHTML = `
+                    ${lesson.content}
+                    <div class="quiz-container">
+                        <h3><i class="fas fa-stethoscope mr-2"></i>Knowledge Assessment</h3>
+                        <div class="quiz-progress">
+                            <div class="quiz-question-number">Question 1 of ${lesson.quiz.length}</div>
+                            <div class="quiz-score">Score: <span id="currentScore">0</span>/${lesson.quiz.length}</div>
+                        </div>
+                        <div id="quizContent">
+                            <!-- Quiz questions will be loaded here -->
+                        </div>
+                    </div>
+                `;
+                
+                this.currentLessonQuizIndex = 0;
+                this.currentLessonScore = 0;
+                
+                this.setupEnhancedQuiz(lesson);
+                
+                modal.classList.add('show');
+                modal.setAttribute('aria-hidden', 'false');
+            }
+
+            setupEnhancedQuiz(lesson) {
+                this.showQuestion(lesson, this.currentLessonQuizIndex);
+            }
+
+            showQuestion(lesson, questionIndex) {
+                const question = lesson.quiz[questionIndex];
+                const quizContent = document.getElementById('quizContent');
+                
+                document.querySelector('.quiz-question-number').textContent = `Question ${questionIndex + 1} of ${lesson.quiz.length}`;
+                
+                quizContent.innerHTML = `
+                    <div class="quiz-question">${question.question}</div>
+                    <div class="quiz-options">
+                        ${question.options.map((option, index) => `
+                            <div class="quiz-option" data-index="${index}" tabindex="0" role="button" aria-label="Option ${index + 1}: ${option}">
+                                <span class="option-letter">${String.fromCharCode(65 + index)}.</span> ${option}
+                            </div>
+                        `).join('')}
+                    </div>
+                    <div id="quizFeedback" class="quiz-feedback" style="display: none;"></div>
+                    <div class="flex gap-4 mt-4">
+                        <button class="btn btn-medical flex-1" id="submitAnswer" disabled>
+                            <i class="fas fa-check" aria-hidden="true"></i>
+                            Submit Answer
+                        </button>
+                        ${questionIndex > 0 ? `
+                            <button class="btn btn-secondary" onclick="app.previousQuestion(${lesson.id}, ${questionIndex})">
+                                <i class="fas fa-arrow-left" aria-hidden="true"></i>
+                                Previous
+                            </button>
+                        ` : ''}
+                    </div>
+                `;
+
+                const options = quizContent.querySelectorAll('.quiz-option');
+                const submitBtn = quizContent.querySelector('#submitAnswer');
+                let selectedIndex = -1;
+
+                options.forEach((option, index) => {
+                    const selectOption = () => {
+                        options.forEach(opt => opt.classList.remove('selected'));
+                        option.classList.add('selected');
+                        selectedIndex = index;
+                        submitBtn.disabled = false;
+                    };
+
+                    option.addEventListener('click', selectOption);
+                    option.addEventListener('keydown', (e) => {
+                        if (e.key === 'Enter' || e.key === ' ') {
+                            e.preventDefault();
+                            selectOption();
+                        }
+                    });
+                });
+
+                submitBtn.addEventListener('click', () => {
+                    this.submitQuizAnswer(lesson, questionIndex, selectedIndex);
+                });
+            }
+
+            submitQuizAnswer(lesson, questionIndex, selectedIndex) {
+                const question = lesson.quiz[questionIndex];
+                const options = document.querySelectorAll('.quiz-option');
+                const feedback = document.getElementById('quizFeedback');
+                const submitBtn = document.getElementById('submitAnswer');
+                
+                const isCorrect = selectedIndex === question.correct;
+                
+                if (isCorrect) {
+                    this.currentLessonScore++;
+                    document.getElementById('currentScore').textContent = this.currentLessonScore;
+                }
+                
+                options.forEach((option, index) => {
+                    if (index === question.correct) {
+                        option.classList.add('correct');
+                    } else if (index === selectedIndex && !isCorrect) {
+                        option.classList.add('incorrect');
+                    }
+                });
+
+                feedback.className = `quiz-feedback ${isCorrect ? 'correct' : 'incorrect'}`;
+                feedback.innerHTML = `
+                    <div class="flex items-start gap-3">
+                        <i class="fas ${isCorrect ? 'fa-check-circle text-green-600' : 'fa-times-circle text-red-600'} text-xl mt-1"></i>
+                        <div>
+                            <h4 class="font-bold mb-2">${isCorrect ? 'Excellent!' : 'Not quite right.'}</h4>
+                            <p>${question.explanation}</p>
+                        </div>
+                    </div>
+                `;
+                feedback.style.display = 'block';
+
+                submitBtn.disabled = true;
+                submitBtn.innerHTML = isCorrect ? 
+                    '<i class="fas fa-check"></i> Correct!' : 
+                    '<i class="fas fa-info-circle"></i> See Explanation';
+
+                setTimeout(() => {
+                    if (questionIndex + 1 < lesson.quiz.length) {
+                        this.currentLessonQuizIndex++;
+                        this.showQuestion(lesson, this.currentLessonQuizIndex);
+                    } else {
+                        this.completeQuiz(lesson);
+                    }
+                }, 3000);
+            }
+
+            completeQuiz(lesson) {
+                const passingScore = Math.ceil(lesson.quiz.length * 0.7);
+                const passed = this.currentLessonScore >= passingScore;
+                const percentage = Math.round((this.currentLessonScore / lesson.quiz.length) * 100);
+                
+                if (passed) {
+                    if (!this.userProgress.completedLessons.includes(lesson.id)) {
+                        this.userProgress.completedLessons.push(lesson.id);
+                        this.userProgress.tokens += 20;
+                        this.userProgress.quizzesPassed += 1;
+                    }
+                    
+                    this.saveProgress();
+                    this.updateProgressDashboard();
+                    
+                    this.showEnhancedSuccessAnimation();
+                    this.audioManager.playMedicalSuccessJingle();
+                    
+                    setTimeout(() => {
+                        this.closeModals();
+                        this.renderLessons();
+                        
+                        this.showNotification(`🏥 Lesson ${lesson.id} completed! You earned 20 tokens and advanced your medical billing expertise.`, 'success');
+                    }, 4000);
+                } else {
+                    document.getElementById('quizContent').innerHTML = `
+                        <div class="text-center p-8">
+                            <div class="w-20 h-20 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <i class="fas fa-redo text-yellow-600 text-3xl"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold mb-4">Assessment Results</h3>
+                            <div class="mb-6">
+                                <div class="text-4xl font-bold mb-2">${percentage}%</div>
+                                <p class="text-gray-600">Score: ${this.currentLessonScore}/${lesson.quiz.length}</p>
+                            </div>
+                            <p class="mb-6 text-gray-700">You need at least 70% to pass. Review the lesson material and try again!</p>
+                            <div class="flex gap-4 justify-center">
+                                <button class="btn btn-secondary" onclick="app.closeModals()">
+                                    <i class="fas fa-book" aria-hidden="true"></i>
+                                    Review Lesson
+                                </button>
+                                <button class="btn btn-medical" onclick="app.retryQuiz(${lesson.id})">
+                                    <i class="fas fa-redo" aria-hidden="true"></i>
+                                    Try Again
+                                </button>
+                            </div>
+                        </div>
+                    `;
+                }
+            }
+
+            retryQuiz(lessonId) {
+                const lesson = this.lessons.find(l => l.id === lessonId);
+                this.currentLessonQuizIndex = 0;
+                this.currentLessonScore = 0;
+                document.getElementById('currentScore').textContent = '0';
+                this.setupEnhancedQuiz(lesson);
+            }
+
+            showEnhancedSuccessAnimation() {
+                const animation = document.getElementById('successAnimation');
+                animation.classList.add('show');
+                
+                this.createConfetti();
+                
+                setTimeout(() => {
+                    animation.classList.remove('show');
+                }, 4000);
+            }
+
+            createConfetti() {
+                const colors = ['#0891b2', '#1e40af', '#ea580c', '#10b981', '#8b5cf6', '#f59e0b'];
+                
+                for (let i = 0; i < 100; i++) {
+                    setTimeout(() => {
+                        const confetti = document.createElement('div');
+                        confetti.className = 'confetti';
+                        confetti.style.left = Math.random() * 100 + '%';
+                        confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                        confetti.style.animationDelay = Math.random() * 2 + 's';
+                        confetti.style.animationDuration = (Math.random() * 2 + 3) + 's';
+                        
+                        document.body.appendChild(confetti);
+                        
+                        setTimeout(() => {
+                            confetti.remove();
+                        }, 8000);
+                    }, i * 50);
+                }
+            }
+
+            updateProgressDashboard() {
+                if (!this.currentUser) return;
+                
+                document.getElementById('tokenCount').textContent = this.userProgress.tokens;
+                document.getElementById('lessonsCompleted').textContent = this.userProgress.completedLessons.length;
+                document.getElementById('quizzesPasssed').textContent = this.userProgress.quizzesPassed;
+                
+                const completedCount = this.userProgress.completedLessons.length;
+                let certificationLevel = 'Beginner';
+                if (completedCount >= 3) certificationLevel = 'Intermediate';
+                if (completedCount >= 5) certificationLevel = 'Advanced';
+                if (completedCount >= 6) certificationLevel = 'Certified Professional';
+                document.getElementById('certificationLevel').textContent = certificationLevel;
+                
+                const overallProgress = Math.round((completedCount / this.lessons.length) * 100);
+                document.getElementById('overallProgress').textContent = `${overallProgress}%`;
+            }
+
+            renderTerminology() {
+                const terminologyGrid = document.getElementById('terminologyGrid');
+                terminologyGrid.innerHTML = '';
+                
+                this.terminology.forEach((term, index) => {
+                    const termCard = document.createElement('div');
+                    termCard.className = `term-card ${term.category}`;
+                    termCard.setAttribute('data-category', term.category);
+                    termCard.setAttribute('data-title', term.title.toLowerCase());
+                    termCard.setAttribute('data-definition', term.definition.toLowerCase());
+                    
+                    termCard.innerHTML = `
+                        <div class="term-header">
+                            <div class="term-icon ${term.category}">
+                                <i class="fas ${this.getCategoryIcon(term.category)}" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h3 class="term-title">${term.title}</h3>
+                                <div class="term-category">${term.category}</div>
+                            </div>
+                        </div>
+                        <p class="term-definition">${term.definition}</p>
+                        <div class="term-example">
+                            <strong>Example:</strong> ${term.example}
+                        </div>
+                        <div class="term-tags">
+                            ${term.tags.map(tag => `<span class="term-tag">${tag}</span>`).join('')}
+                        </div>
+                    `;
+                    
+                    terminologyGrid.appendChild(termCard);
+                });
+            }
+
+            getCategoryIcon(category) {
+                const icons = {
+                    basic: 'fa-graduation-cap',
+                    intermediate: 'fa-cogs',
+                    advanced: 'fa-rocket',
+                    medical: 'fa-stethoscope'
+                };
+                return icons[category] || 'fa-circle';
+            }
+
+            filterTerminology() {
+                const searchTerm = document.getElementById('termSearch').value.toLowerCase();
+                const activeFilter = document.querySelector('.filter-btn.active').getAttribute('data-filter');
+                
+                const termCards = document.querySelectorAll('.term-card');
+                
+                termCards.forEach(card => {
+                    const title = card.getAttribute('data-title');
+                    const definition = card.getAttribute('data-definition');
+                    const category = card.getAttribute('data-category');
+                    
+                    const matchesSearch = title.includes(searchTerm) || definition.includes(searchTerm);
+                    const matchesFilter = activeFilter === 'all' || category === activeFilter;
+                    
+                    if (matchesSearch && matchesFilter) {
+                        card.classList.remove('hidden');
+                    } else {
+                        card.classList.add('hidden');
+                    }
+                });
+            }
+
+            handleFilterClick(e) {
+                document.querySelectorAll('.filter-btn').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                
+                e.target.classList.add('active');
+                this.filterTerminology();
+            }
+
+            saveProgress() {
+                const progressData = {
+                    user: this.currentUser,
+                    progress: this.userProgress,
+                    timestamp: new Date().toISOString()
+                };
+                
+                localStorage.setItem('medcode_progress', JSON.stringify(progressData));
+            }
+
+            loadProgress() {
+                const saved = localStorage.getItem('medcode_progress');
+                if (saved) {
+                    const data = JSON.parse(saved);
+                    if (data.user) {
+                        this.currentUser = data.user;
+                    }
+                    return data.progress || { completedLessons: [], tokens: 0, quizzesPassed: 0 };
+                }
+                return { completedLessons: [], tokens: 0, quizzesPassed: 0 };
+            }
+        }
+
+        // Medical Billing Simulation Functions
+        function generateBill() {
+            const patientType = document.getElementById('patientType').value;
+            const insuranceType = document.getElementById('insuranceType').value;
+            const procedureType = document.getElementById('procedureType').value;
+            
+            // Generate simulated data
+            const patientId = 'PT' + Math.floor(Math.random() * 100000).toString().padStart(5, '0');
+            
+            // Simulate procedure and diagnosis codes based on selections
+            const procedures = {
+                consultation: { code: '99213', desc: 'Office Visit - Established Patient' },
+                examination: { code: '99214', desc: 'Office Visit - Detailed Examination' },
+                diagnostic: { code: '36415', desc: 'Routine Venipuncture' },
+                treatment: { code: '99215', desc: 'Office Visit - Complex Treatment' }
+            };
+            
+            const diagnoses = {
+                outpatient: { code: 'Z00.00', desc: 'Encounter for general adult medical examination' },
+                inpatient: { code: 'I50.9', desc: 'Heart failure, unspecified' },
+                emergency: { code: 'S72.001A', desc: 'Fracture of unspecified part of neck of right femur' },
+                surgery: { code: 'K80.20', desc: 'Unspecified calculus of gallbladder without obstruction' }
+            };
+            
+            const procedure = procedures[procedureType];
+            const diagnosis = diagnoses[patientType];
+            
+            // Calculate charges based on procedure and insurance
+            const baseCharges = {
+                consultation: 150,
+                examination: 225,
+                diagnostic: 25,
+                treatment: 350
+            };
+            
+            const insuranceAdjustments = {
+                medicare: 0.8,
+                medicaid: 0.75,
+                private: 0.9,
+                'self-pay': 1.0
+            };
+            
+            const baseCharge = baseCharges[procedureType];
+            const adjustment = insuranceAdjustments[insuranceType];
+            const finalCharge = Math.round(baseCharge * adjustment);
+            
+            // Update patient info
+            document.getElementById('patientId').textContent = patientId;
+            document.getElementById('procedureCode').textContent = procedure.code;
+            document.getElementById('diagnosisCode').textContent = diagnosis.code;
+            document.getElementById('providerInfo').textContent = 'Dr. Sarah Johnson, MD - NPI: 1234567890';
+            
+            // Generate billing code simulation
+            const billingCode = `
+// Medical Billing Processing System
+PATIENT_ID: ${patientId}
+PROVIDER_NPI: 1234567890
+DATE_OF_SERVICE: ${new Date().toLocaleDateString()}
+
+PROCEDURE_CODES:
+  ${procedure.code} - ${procedure.desc}
+  
+DIAGNOSIS_CODES:
+  ${diagnosis.code} - ${diagnosis.desc}
+  
+INSURANCE_INFO:
+  Primary: ${insuranceType.toUpperCase()}
+  Policy_Status: ACTIVE
+  
+BILLING_CALCULATION:
+  Base_Charge: $${baseCharge}.00
+  Insurance_Adjustment: ${Math.round((1-adjustment) * 100)}%
+  Patient_Responsibility: $${finalCharge}.00
+  
+CLAIM_STATUS: READY_FOR_SUBMISSION
+            `;
+            
+            document.getElementById('billingCode').textContent = billingCode;
+            
+            // Update billing details
+            const detailsHtml = `
+                <div class="grid grid-2 gap-4">
+                    <div>
+                        <h5 class="font-bold mb-2">Procedure Details</h5>
+                        <p><strong>Code:</strong> ${procedure.code}</p>
+                        <p><strong>Description:</strong> ${procedure.desc}</p>
+                        <p><strong>Base Charge:</strong> $${baseCharge}.00</p>
+                    </div>
+                    <div>
+                        <h5 class="font-bold mb-2">Diagnosis Details</h5>
+                        <p><strong>Code:</strong> ${diagnosis.code}</p>
+                        <p><strong>Description:</strong> ${diagnosis.desc}</p>
+                        <p><strong>Category:</strong> ${patientType.charAt(0).toUpperCase() + patientType.slice(1)}</p>
+                    </div>
+                </div>
+                <div class="mt-4 p-4 bg-blue-50 rounded-lg">
+                    <h5 class="font-bold mb-2">Billing Summary</h5>
+                    <div class="flex justify-between items-center">
+                        <span>Patient Responsibility:</span>
+                        <span class="font-bold text-xl">$${finalCharge}.00</span>
+                    </div>
+                    <div class="text-sm text-gray-600 mt-2">
+                        Insurance: ${insuranceType.charAt(0).toUpperCase() + insuranceType.slice(1)} (${Math.round(adjustment * 100)}% coverage)
+                    </div>
+                </div>
+            `;
+            
+            document.getElementById('billingDetails').innerHTML = detailsHtml;
+        }
+
+        // Initialize the application
+        const app = new MedCodeAcademy();
+        window.app = app;
+    </script>
+</body>
+</html>
